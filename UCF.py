@@ -8,6 +8,33 @@ import pickle
 import re
 
 
+def Precision(recommend_list, real_list):
+    '''
+    :param recomend_list: 包含N个用户的推荐列表
+    :param real_list: N个用户的真实行为列表
+    :return: precision
+    '''
+    hit = 0
+    num_rec = 0
+    for rec, real in zip(recommend_list, real_list):
+        hit += len(set(rec) & set(real))
+        num_rec += len(rec)
+    return hit / num_rec
+
+def Recall(recommend_list, real_list):
+    '''
+    :param recomend_list: 包含N个用户的推荐列表
+    :param real_list: N个用户的真实行为列表
+    :return: recall
+    '''
+    hit = 0
+    num_all = 0
+    for rec, real in zip(recommend_list, real_list):
+        hit += len(set(rec) & set(real))
+        num_all += len(real)
+    return hit / num_all
+
+
 class UCF:
     def __init__(self, clusters, train, K, len_item, user_program, text_info, N):
         '''
@@ -40,7 +67,7 @@ class UCF:
             for user in users:
                 fenmu1 = 0
                 fenmu2 = 0
-                rank.setdefault(u, 0)
+                rank.setdefault(user, 0)
                 if item in self.train[user]:
                     rank[user] += self.train[user][item] * self.train[u][item]
                     fenmu1 += self.train[user][item] ** 2
@@ -83,9 +110,17 @@ def main():
     user_program = data_.groupby('uid')[['chanel_name']].agg(lambda x: list(set(x))).reset_index()
     ucf = UCF(clusters, train, 20, len(item_set), user_program, text_info, 5)
     us = list(train.keys())[0:1000]
+    recommend_list = []
+    real_list = []
     for u in us:
         recommend_with_rank = ucf.recommend(u, 5)
-        print(recommend_with_rank)
+        real = user_program[user_program.uid == u]['chanel_name'].values[0]
+        recommend_list.append(recommend_with_rank)
+        real_list.append(real)
+    precision = Precision(recommend_list, real_list)
+    recall = Recall(recommend_list, real_list)
+    print('precision: %s' %precision)
+    print('recall: %s' %recall)
 
 
 
