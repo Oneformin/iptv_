@@ -115,7 +115,9 @@ def main():
     for u in us:
         recommend_with_rank = ucf.recommend(u, 5)
         real = user_program[user_program.uid == u]['chanel_name'].values[0]
-        recommend_list.append(recommend_with_rank)
+        print(recommend_with_rank)
+        print(real)
+        recommend_list.append([x[0] for x in recommend_with_rank])
         real_list.append(real)
     precision = Precision(recommend_list, real_list)
     recall = Recall(recommend_list, real_list)
