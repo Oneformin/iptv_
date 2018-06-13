@@ -34,6 +34,10 @@ def random_addr(url):
 
 
 def get_tag(search):
+    donot = ['CCTV', 'CQTV', '卫视', '金鹰卡通', '卡酷动画', '测试']
+    for x in donot:
+        if x in search:
+            return False
     url = u'https://www.douban.com/search?cat=1002&q=' # 搜索电影
     # url = 'https://www.douban.com/search?q=' # 搜索全部
     url = quote(url + search, safe='/:?=&')
