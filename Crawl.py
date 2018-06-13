@@ -5,6 +5,7 @@ from bs4 import BeautifulSoup
 import random
 import re
 import numpy as np
+import sys
 import urllib
 import pandas as pd
 import xlwt
@@ -34,10 +35,6 @@ def random_addr(url):
 
 
 def get_tag(search):
-    donot = ['CCTV', 'CQTV', '卫视', '金鹰卡通', '卡酷动画', '测试']
-    for x in donot:
-        if x in search:
-            return False
     url = u'https://www.douban.com/search?cat=1002&q=' # 搜索电影
     # url = 'https://www.douban.com/search?q=' # 搜索全部
     url = quote(url + search, safe='/:?=&')
@@ -73,10 +70,22 @@ def get_tag(search):
     # print(search + '的简介:' + summary)
         return types
     except Exception as e:
+        if 'HTTP' in str(e):
+            sys.exit(0)
         print(e)
         print('豆瓣中找不到'+search + '的信息')
         return False
 
+
+def is_program(line):  # 过滤掉明显爬不到的节目名称
+
+    if len(line) > 17:
+        return False
+    donot = ['CCTV', 'CQTV', '卫视', '金鹰卡通', '卡酷动画', '测试']
+    for x in donot:
+        if x in line:
+            return False
+    return True
 
 def main():
     np.seed = 0
@@ -89,14 +98,17 @@ def main():
     crawled = pd.read_csv('./text_info/text_info.csv', sep='|')
     crawled_list = list(crawled['name'].values)
     uncrawled = list(set(docs) - set(crawled_list))
+    print('%s条数据' %len(uncrawled))
     if not os.path.exists('./text_info'):
         os.mkdir('./text_info')
-    with open('./text_info/text_info.csv', 'a', encoding='utf-8') as f:
-        with open('./text_info/un_crawled.csv', 'a', encoding='utf-8') as f1:
+    with open('./text_info/text_info.csv', 'a', encoding='utf-8', buffering=1) as f:
+        with open('./text_info/un_crawled.csv', 'a', encoding='utf-8', buffering=1) as f1:
             #f.write('name|text_type\n')
             #f1.write('name\n')
             for line in uncrawled:
                 t = np.abs(np.random.normal()+1)
+                if not is_program(line):
+                    continue
                 time.sleep(t)
                 info = get_tag(line)
                 if info!=False:
