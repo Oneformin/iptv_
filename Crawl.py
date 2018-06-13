@@ -4,12 +4,14 @@ import sys
 from bs4 import BeautifulSoup
 import random
 import re
+import numpy as np
 import urllib
 import pandas as pd
 import xlwt
 import os
 from urllib.parse import quote
 import time
+import random
 data_path = './processed_data/0.csv'
 
 def user_proxy(proxy_addr, url):
@@ -73,6 +75,7 @@ def get_tag(search):
 
 
 def main():
+    np.seed = 0
     # r1 = '[0-9’!"#$%&\'()（）*+,-./:;<=>?@，。?★、…【】《》？“”‘’！[\\]^_`{|}~]+'
     data = pd.read_csv(data_path, sep='|')
     data['chanel_name'] = data['chanel_name'].apply(lambda x: str(x).strip())
@@ -89,7 +92,8 @@ def main():
             #f.write('name|text_type\n')
             #f1.write('name\n')
             for line in uncrawled:
-                time.sleep(1)
+                t = np.abs(np.random.normal()+1)
+                time.sleep(t)
                 info = get_tag(line)
                 if info!=False:
                     print('写入')
