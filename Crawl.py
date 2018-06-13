@@ -88,7 +88,7 @@ def main():
     # docs = data['name']
     crawled = pd.read_csv('./text_info/text_info.csv', sep='|')
     crawled_list = list(crawled['name'].values)
-    uncrawled = list(set(docs) | set(crawled_list))
+    uncrawled = list(set(docs) - set(crawled_list))
     if not os.path.exists('./text_info'):
         os.mkdir('./text_info')
     with open('./text_info/text_info.csv', 'a', encoding='utf-8') as f:
