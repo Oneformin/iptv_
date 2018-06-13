@@ -4,3 +4,4 @@ cleaned_path = processed_path + '/cleaned_data.csv' # 清洗之后的数据
 text_info_path = './text_info/text_info.csv' # 节目对应的标签
 result_path = './result'# 结果
 cluster_result_path = result_path + '/cluster_result.pkl'# 聚类结果
+week_data_path = './input/2026'

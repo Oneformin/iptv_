@@ -7,7 +7,7 @@ import re
 from scipy import sparse
 
 
-def TimeFilter(start, end, min_gap=300, max_gap=36000):
+def TimeFilter(start, end, min_gap=300, max_gap=72000):
     '''
     :param start: 开始观看时间字符串
     :param end: 结束观看时间字符串
@@ -62,7 +62,11 @@ def Preprocess():
     数据预处理，将数据处理成可以聚类的向量格式
     :return:train， 原始数据，节目的标签
     '''
-    data = pd.read_csv(cleaned_path, sep='|')
+    data = pd.read_csv(processed_path + '/0.csv')
+    for i in range(1, 7):
+        tmp = pd.read_csv(processed_path + '/%s.csv' %i)
+        data = pd.concat([data, tmp])
+    data.reindex(inplace=True)
     text_info = pd.read_csv(text_info_path, sep='|')
     text_info.rename(columns={'name': 'chanel_name'}, inplace=True)
     text_info.text_type = text_info.text_type.apply(lambda x: x.split(' '))
