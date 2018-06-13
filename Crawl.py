@@ -16,6 +16,8 @@ def user_proxy(proxy_addr, url):
     import urllib.request
     proxy = urllib.request.ProxyHandler({'http': proxy_addr})
     opener = urllib.request.build_opener(proxy, urllib.request.HTTPHandler)
+    opener.addheaders = [('User-Agent',
+                          'Mozilla/5.0 (Linux; Android 4.1.1; Nexus 7 Build/JRO03D) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.166 Safari/535.19')]
     urllib.request.install_opener(opener)
     data = urllib.request.urlopen(url)
     return data
@@ -84,8 +86,8 @@ def main():
         os.mkdir('./text_info')
     with open('./text_info/text_info.csv', 'a', encoding='utf-8') as f:
         with open('./text_info/un_crawled.csv', 'a', encoding='utf-8') as f1:
-            f.write('name|text_type\n')
-            f1.write('name\n')
+            #f.write('name|text_type\n')
+            #f1.write('name\n')
             for line in uncrawled:
                 time.sleep(1)
                 info = get_tag(line)
