@@ -119,6 +119,7 @@ def main():
         print(real)
         recommend_list.append([x[0] for x in recommend_with_rank])
         real_list.append(real)
+    all_program = list(user_program.chanel_name)
     precision = Precision(recommend_list, real_list)
     recall = Recall(recommend_list, real_list)
     print('precision: %s' %precision)
