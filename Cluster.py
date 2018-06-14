@@ -62,9 +62,9 @@ def Preprocess():
     数据预处理，将数据处理成可以聚类的向量格式
     :return:train， 原始数据，节目的标签
     '''
-    data = pd.read_csv(processed_path + '/0.csv')
+    data = pd.read_csv(processed_path + '/0.csv', sep='|')
     for i in range(1, 7):
-        tmp = pd.read_csv(processed_path + '/%s.csv' %i)
+        tmp = pd.read_csv(processed_path + '/%s.csv' %i, sep='|')
         data = pd.concat([data, tmp])
     text_info = pd.read_csv(text_info_path, sep='|')
     text_info.rename(columns={'name': 'chanel_name'}, inplace=True)
