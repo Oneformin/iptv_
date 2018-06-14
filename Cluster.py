@@ -66,11 +66,10 @@ def Preprocess():
     for i in range(1, 7):
         tmp = pd.read_csv(processed_path + '/%s.csv' %i)
         data = pd.concat([data, tmp])
-    data.reindex(inplace=True)
     text_info = pd.read_csv(text_info_path, sep='|')
     text_info.rename(columns={'name': 'chanel_name'}, inplace=True)
-    text_info.text_type = text_info.text_type.apply(lambda x: x.split(' '))
-    text_info.chanel_name.apply(lambda x: x.strip())
+    text_info.text_type = text_info.text_type.apply(lambda x: str(x).split(' '))
+    text_info.chanel_name.apply(lambda x: str(x).strip())
     data = pd.merge(data, text_info[['chanel_name', 'text_type']], on='chanel_name', how='left')
     # mask = data.text_type.apply(lambda x: str(x) == 'nan')
     # fill = data.chanel_name[mask].apply(lambda x:[x])
