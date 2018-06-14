@@ -13,33 +13,36 @@ import os
 from urllib.parse import quote
 import time
 import random
+import urllib.request
 data_path = './processed_data/0.csv'
 
-def user_proxy(proxy_addr, url):
-    import urllib.request
-    proxy = urllib.request.ProxyHandler({'http': proxy_addr})
+def user_proxy(proxy_addr):
+    proxy = urllib.request.ProxyHandler({'https': proxy_addr})
     opener = urllib.request.build_opener(proxy, urllib.request.HTTPHandler)
     opener.addheaders = [('User-Agent',
                           'Mozilla/5.0 (Linux; Android 4.1.1; Nexus 7 Build/JRO03D) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.166 Safari/535.19')]
     urllib.request.install_opener(opener)
-    data = urllib.request.urlopen(url)
-    return data
 
-proxy_addr = ["192.155.185.171:80", '192.155.185.171:80', '192.155.185.131:80']
 
-def random_addr(url):
-    addr_index = random.randint(0, 2)
+proxy_addr = ["183.159.94.158:29214"]
+
+def random_addr():
+    addr_index = random.randint(0, len(proxy_addr) - 1)
     addr = proxy_addr[addr_index]
-    response = user_proxy(addr, url)
-    return response
+    user_proxy(addr)
 
 
 def get_tag(search):
     url = u'https://www.douban.com/search?cat=1002&q=' # 搜索电影
     # url = 'https://www.douban.com/search?q=' # 搜索全部
     url = quote(url + search, safe='/:?=&')
+    count = 0
     try:
-        response = random_addr(url) # 随机代理
+        if count==200:
+            random_addr() # 随机代理
+            count = 0
+        count += 1
+        response = urllib.request.urlopen(url)
         # response = urllib.request.urlopen(url)
         # 第一层
         html = response.read()
@@ -96,8 +99,10 @@ def main():
     # data = pd.read_csv('./text_info/un_crawled.csv', sep='|')
     # docs = data['name']
     crawled = pd.read_csv('./text_info/text_info.csv', sep='|')
+    un_crawled = pd.read_csv('./text_info/un_crawled.csv', sep='|')
+    un_crawled_list = list(un_crawled['name'].values)
     crawled_list = list(crawled['name'].values)
-    uncrawled = list(set(docs) - set(crawled_list))
+    uncrawled = list(set(docs) - set(crawled_list) - set(un_crawled_list))
     print('%s条数据' %len(uncrawled))
     if not os.path.exists('./text_info'):
         os.mkdir('./text_info')

@@ -63,9 +63,9 @@ def Preprocess():
     :return:train， 原始数据，节目的标签
     '''
     data = pd.read_csv(processed_path + '/0.csv', sep='|')
-    for i in range(1, 7):
-        tmp = pd.read_csv(processed_path + '/%s.csv' %i, sep='|')
-        data = pd.concat([data, tmp])
+    # for i in range(1, 7):
+    #     tmp = pd.read_csv(processed_path + '/%s.csv' %i, sep='|')
+    #     data = pd.concat([data, tmp])
     text_info = pd.read_csv(text_info_path, sep='|')
     text_info.rename(columns={'name': 'chanel_name'}, inplace=True)
     text_info.text_type = text_info.text_type.apply(lambda x: str(x).split(' '))
