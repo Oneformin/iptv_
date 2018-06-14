@@ -51,7 +51,7 @@ def get_tag(search):
         f = re.compile(pattern1)
         link = f.findall(html)[0].split('\"')[1]
         # 第二层
-        response = random_addr(link)  # 随机代理
+        response = urllib.request.urlopen(link)  # 随机代理
         #html = urllib.request.urlopen(link)
         html = response.read()
         html = html.decode('utf-8')

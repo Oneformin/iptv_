@@ -5,3 +5,4 @@ text_info_path = './text_info/text_info.csv' # 节目对应的标签
 result_path = './result'# 结果
 cluster_result_path = result_path + '/cluster_result.pkl'# 聚类结果
 week_data_path = './input/2026'
+cluster_xls_path = './xlsx'
