@@ -7,4 +7,4 @@ cluster_result_path = result_path + '/cluster_result.pkl'# 聚类结果
 week_data_path = './input/2026'
 xls_path = './xlsx'
 cluster_xls_result = './xlsx/cluster_result.xlsx'
-recommend_xls_result = './xlsx/recommend_result.csv'
+recommend_xls_result = './xlsx/recommend_result.xlsx'
