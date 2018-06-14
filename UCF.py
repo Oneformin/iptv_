@@ -3,8 +3,10 @@ from scipy import sparse
 from datetime import datetime, timedelta
 from sklearn.cluster import KMeans
 import numpy as np
+from config import *
 from Cluster import Cluster, Preprocess
 import pickle
+import os
 import re
 
 
@@ -107,23 +109,42 @@ class UCF:
 def main():
     train, data_, text_info = Preprocess()
     clusters, item_set = Cluster(train, 18)
+    Ns = [5, 10, 20]
+    Ks = [10, 20]
     user_program = data_.groupby('uid')[['chanel_name']].agg(lambda x: list(set(x))).reset_index()
     ucf = UCF(clusters, train, 20, len(item_set), user_program, text_info, 5)
     us = list(train.keys())[0:1000]
-    recommend_list = []
-    real_list = []
-    for u in us:
-        recommend_with_rank = ucf.recommend(u, 5)
-        real = user_program[user_program.uid == u]['chanel_name'].values[0]
-        print(recommend_with_rank)
-        print(real)
-        recommend_list.append([x[0] for x in recommend_with_rank])
-        real_list.append(real)
-    all_program = list(user_program.chanel_name)
-    precision = Precision(recommend_list, real_list)
-    recall = Recall(recommend_list, real_list)
-    print('precision: %s' %precision)
-    print('recall: %s' %recall)
+    df = {'N':[],
+    'K':[],
+    'precision':[],
+    'recall':[]}
+    if not os.path.exists(xls_path):
+        os.mkdir(xls_path)
+    writer = pd.ExcelWriter(recommend_xls_result)
+    for N in Ns:
+        for K in Ks:
+            ucf.K = K
+            recommend_list = []
+            real_list = []
+            for u in us:
+                recommend_with_rank = ucf.recommend(u, N)
+                real = user_program[user_program.uid == u]['chanel_name'].values[0]
+                print(recommend_with_rank)
+                print(real)
+                recommend_list.append([x[0] for x in recommend_with_rank])
+                real_list.append(real)
+            # all_program = list(user_program.chanel_name)
+            precision = Precision(recommend_list, real_list)
+            recall = Recall(recommend_list, real_list)
+            df['N'].append(N)
+            df['K'].append(K)
+            df['precision'].append(precision)
+            df['recall'].append(recall)
+            print('N=%s, K=%s precision: %s' %precision)
+            print('N=%s, K=%s recall: %s' %recall)
+    df = pd.DataFrame(df)
+    df.to_excel(writer, sheet_name='sheet1', index=False)
+    writer.save()
 
 
 
