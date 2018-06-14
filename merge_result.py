@@ -17,26 +17,27 @@ def merge_result():
     del _2
     gc.collect()
     cluster = pd.read_pickle(cluster_result_path)
-    uids = [x[0] for x in cluster.items()]
-    profiles = [x[1] for x in cluster.items()]
+    uids = [x[0] for x in train.items()]
+    profiles = [x[1] for x in train.items()]
     cluster_profile = pd.merge(cluster, pd.DataFrame({'uid':uids, 'profile': profiles}), on='uid')
-    if not os.path.exists(cluster_xls_path):
-        os.mkdir(cluster_xls_path)
+    if not os.path.exists(xls_path):
+        os.mkdir(xls_path)
     label_average = dict()
-    writer = pd.ExcelWriter(cluster_xls_path + '/cluster_result.xlsx')
+    writer = pd.ExcelWriter(cluster_xls_result)
     for i, label in enumerate(sorted(pd.unique(cluster_profile['label']))):
         label_i_data = cluster_profile[cluster_profile['label']==label]
         label_average.setdefault(i, dict())
         for profile in label_i_data['profile']:
-            label_average[i].setdefault(profile, 0)
-            label_average[i]['profile'] += label_i_data['profile'][profile] / label_i_data.shape[0]
-        label_i_data.to_excel(writer, sheet_name='label%s' %i)
-        writer.save()
+            for types in profile:
+                label_average[i].setdefault(types, 0)
+                label_average[i][types] += profile[types] / label_i_data.shape[0]
+        label_i_data.to_excel(writer, sheet_name='label%s' %i, index=False)
+    writer.save()
     return label_average
 
 def plot(label_average):
     counts = label_average
-    for i, count in enumerate(counts.items()):
+    for i, count in counts.items():
         interset_distrib = sorted(count.items(), key=lambda x: x[1], reverse=True)[0:10]
         fig = plt.figure(i)
         x = np.arange(len(interset_distrib))
