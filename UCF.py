@@ -112,12 +112,16 @@ def main():
     Ns = [5, 10, 20]
     Ks = [10, 20]
     user_program = data_.groupby('uid')[['chanel_name']].agg(lambda x: list(set(x))).reset_index()
+    all_program = set()
+    for x in user_program['chanel_name']:
+        all_program += set(x)
     ucf = UCF(clusters, train, 20, len(item_set), user_program, text_info, 5)
-    us = list(train.keys())[0:1000]
+    us = list(train.keys())
     df = {'N':[],
     'K':[],
     'precision':[],
-    'recall':[]}
+    'recall':[],
+          'coverage':[]}
     if not os.path.exists(xls_path):
         os.mkdir(xls_path)
     writer = pd.ExcelWriter(recommend_xls_result)
@@ -126,22 +130,27 @@ def main():
             ucf.K = K
             recommend_list = []
             real_list = []
+            recommend_set = set()
             for u in us:
                 recommend_with_rank = ucf.recommend(u, N)
                 real = user_program[user_program.uid == u]['chanel_name'].values[0]
                 print(recommend_with_rank)
                 print(real)
                 recommend_list.append([x[0] for x in recommend_with_rank])
+                recommend_set |= set(recommend_list[-1])
                 real_list.append(real)
             # all_program = list(user_program.chanel_name)
             precision = Precision(recommend_list, real_list)
             recall = Recall(recommend_list, real_list)
+            coverage = len(recommend_set) / len(all_program)
             df['N'].append(N)
             df['K'].append(K)
             df['precision'].append(precision)
             df['recall'].append(recall)
+            df['coverage'].append(coverage)
             print('N=%s, K=%s precision: %s' %(N, K, precision))
             print('N=%s, K=%s recall: %s' %(N, K, recall))
+            print('N=%s, K=%s coverage: %s' %(N, K, coverage))
     df = pd.DataFrame(df)
     df.to_excel(writer, sheet_name='sheet1', index=False)
     writer.save()
