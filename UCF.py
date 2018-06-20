@@ -114,7 +114,7 @@ def main():
     user_program = data_.groupby('uid')[['chanel_name']].agg(lambda x: list(set(x))).reset_index()
     all_program = set()
     for x in user_program['chanel_name']:
-        all_program += set(x)
+        all_program |= set(x)
     ucf = UCF(clusters, train, 20, len(item_set), user_program, text_info, 5)
     us = list(train.keys())
     df = {'N':[],
@@ -134,8 +134,9 @@ def main():
             for u in us:
                 recommend_with_rank = ucf.recommend(u, N)
                 real = user_program[user_program.uid == u]['chanel_name'].values[0]
-                print(recommend_with_rank)
-                print(real)
+                if len(real) > 0 and len(recommend_with_rank) > 0:
+                    print('recommend:', ','.join([x[0] for x in recommend_with_rank]))
+                    print('groundtruth:', ','.join(real))
                 recommend_list.append([x[0] for x in recommend_with_rank])
                 recommend_set |= set(recommend_list[-1])
                 real_list.append(real)
