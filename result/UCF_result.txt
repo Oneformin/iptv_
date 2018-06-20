@@ -1,0 +1,952 @@
+D:\DevelopApps\Anaconda3\python.exe E:/bigdata/pycharmProject/iptv_git/UCF.py
+create sparse matrix
+begin
+E:/bigdata/pycharmProject/iptv_git/UCF.py:77: RuntimeWarning: invalid value encountered in double_scalars
+  rank[user] / (np.sqrt(fenmu1) * np.sqrt(fenmu2))  # 余弦相似度要reverse
+E:/bigdata/pycharmProject/iptv_git/UCF.py:77: RuntimeWarning: divide by zero encountered in double_scalars
+  rank[user] / (np.sqrt(fenmu1) * np.sqrt(fenmu2))  # 余弦相似度要reverse
+recommend: IPTV,今夕何夕
+groundtruth: IPTV,星影测试
+recommend: 古装剧场测试
+groundtruth: 古装剧场测试,奔跑吧,电影寻梦环游记美国,HD烟花国语版
+recommend: 黑侠国语版,变形金刚 第一季
+groundtruth: 家庭影院测试,IPTV,动作影院测试
+recommend: 星影测试,迪迦奥特曼new
+groundtruth: 星影测试
+recommend: IPTV
+groundtruth: IPTV
+recommend: 奔跑吧,小时代 ,动画乐翻天,HD大内密探零零发R国语版,凶城计中计国语版
+groundtruth: 奔跑吧,好学生测试,城市剧场测试,爱生活测试,IPTV
+recommend: IPTV,报告老板贺岁篇 ,古装剧场测试,家庭影院测试,花少团爆笑学跳桑巴舞
+groundtruth: 古装剧场测试,IPTV谍战剧场,城市剧场测试,IPTV
+recommend: 暗黑者第集,识骨寻踪第一季 ,妙警贼探第四季原声版,识骨寻踪第八季 ,恐怖禁忌之红旗袍
+groundtruth: IPTV谍战剧场,时尚购物
+recommend: 古装剧场测试
+groundtruth: 古装剧场测试
+recommend: 使徒行者国语版,寒战,使徒行者 ,缉枪,邻家女特工第一季原声版
+groundtruth: 美国队长：寒冬战士,使徒行者 ,天赋异禀第集,生化危机：终章,神秘家族,肥猫寻亲记之明天会更好 ,窃听风云,急诊科医生
+recommend: 暗黑者第集,妙警贼探第四季原声版,动画狂欢曲
+groundtruth: IPTV谍战剧场,IPTV
+recommend: 时尚购物,老友记 第二季 ,微时代第集,美人鱼
+groundtruth: 时尚购物
+recommend: IPTV谍战剧场
+groundtruth: IPTV谍战剧场
+recommend: IPTV
+groundtruth: IPTV
+recommend: 家庭影院测试
+groundtruth: 星猫历险记 古城大冒险 ,魔晶猎人 ,IPTV
+recommend: 乐高未来骑士,HD西游记之大圣归来国语版,西游记之大圣归来国语版,黑猫警长之翡翠之星,探索恶魔岛
+groundtruth: 城市剧场测试,IPTV,IPTV相声小品
+recommend: 黎明之前 ,HD大宋提刑官new
+groundtruth: 经典电影,奔跑吧,IPTV谍战剧场,星影测试,爱生活测试
+recommend: 恰克大冒险 TV版 ,双星之阴阳师 ,HD生死回放,钢铁侠原声版,HD时空使徒
+groundtruth: 城市剧场测试,动画测试
+recommend: 星影测试,迪迦奥特曼new
+groundtruth: 星影测试
+recommend: IPTV
+groundtruth: IPTV
+recommend: 甜心格格 第二部 ,还珠格格第一部
+groundtruth: 古装剧场测试,IPTV谍战剧场,城市剧场测试
+recommend: 古装剧场测试
+groundtruth: 古装剧场测试
+recommend: 催眠大师,窃听风云,将界 ,无头东宫国语版,HD初代吸血鬼第一季原声版
+groundtruth: IPTV谍战剧场,铁在烧 第集,孤战 第集
+recommend: IPTV
+groundtruth: IPTV
+recommend: 古装剧场测试
+groundtruth: 古装剧场测试
+recommend: 剧场,中国蓝周播剧场,恋爱中的维多利亚,康熙王朝new,茜茜公主第一季
+groundtruth: 经典电影,云巅之上第一季第集
+recommend: IPTV谍战剧场
+groundtruth: IPTV谍战剧场
+recommend: 城市剧场测试,热播剧场
+groundtruth: 热播剧场
+recommend: IPTV
+groundtruth: 纪实高清,IPTV
+recommend: 黑猫警长之翡翠之星,X战警,星影测试,美国队长：寒冬战士,超能陆战队
+groundtruth: 喜剧影院测试,家庭影院测试,星影测试,动作影院测试
+recommend: 烟花预告片,代号预告片
+groundtruth: 甜心格格 第二部 ,IPTV,米雅的精灵王国
+recommend: 热播剧场,城市剧场测试
+groundtruth: 城市剧场测试
+recommend: 小马宝莉,小马宝莉
+groundtruth: 奥特银河大怪兽之战,超级飞侠第四季,捷德奥特曼 日配版 ,海绵宝宝 第七季 ,萌鸡小队,巨神战击队之超救分队 ,小猪佩奇第二季,神兽金刚 ,百变布鲁可,小猪佩奇第一季
+recommend: 热播剧场,城市剧场测试
+groundtruth: 热播剧场
+recommend: 火线追凶之冲破黑幕,动画测试,TICO成长快车,动画狂欢曲,奔跑吧
+groundtruth: 热播剧场,IPTV谍战剧场,城市剧场测试,IPTV
+recommend: 城市剧场测试,热播剧场,捷德奥特曼 日配版 ,乐高超级英雄正义联盟对比扎罗联盟,黑猫警长之翡翠之星
+groundtruth: 家庭影院测试,古装剧场测试,热播剧场,星影测试
+recommend: 终极一班
+groundtruth: 古装剧场测试,城市剧场测试,热播剧场,星影测试
+recommend: IPTV,报告老板贺岁篇 ,花少团爆笑学跳桑巴舞,亲家过年,十宗罪
+groundtruth: 李伯清书场,IPTV谍战剧场,渝乐耍大牌首,IPTV,家有购物
+recommend: 家庭影院测试,花少团爆笑学跳桑巴舞,动画大放映,看个球 ,古装剧场测试
+groundtruth: 古装剧场测试,童趣大冒险,少儿动画,IPTV,小公主苏菲亚Ⅱ
+recommend: 飞天小女警第四季,飞天小女警第二季,飞天小女警第一季,我的朋友猪迪克 ,少年师爷之侠义欢乐行
+groundtruth: 时尚购物,青春同学会,IPTV,王牌对王牌Ⅲ,动画测试,早教测试
+recommend: 乐高未来骑士,小胖妞TV版 ,HD西游记之大圣归来国语版,西游记之大圣归来国语版
+groundtruth: 城市剧场测试,IPTV
+recommend: 龙珠传奇 ,将军在上 ,秦时丽人明月心 ,HD凤囚凰 第集,甜心格格 第二部
+groundtruth: 将军在上 ,空中营救
+recommend: IPTV,今夕何夕
+groundtruth: IPTV,家有购物,星影测试
+recommend: 家庭影院测试,今夕何夕
+groundtruth: 喜剧影院测试,家庭影院测试,IPTV
+recommend: 家庭影院测试,热播剧场,城市剧场测试,看个球 ,乐高幻影忍者中国特别版
+groundtruth: 新闻大求真,热播剧场,IPTV
+recommend: 动画狂欢曲
+groundtruth: 古装剧场测试,经典电影,家庭影院测试,IPTV谍战剧场,城市剧场测试,星影测试,爱生活测试,热播剧场
+recommend: HD妖猫传国语版,无头东宫国语版,古装剧场测试,逆缘国语版,硬骨头之绝地归途
+groundtruth: 古装剧场测试,名侦探柯南 ,时尚购物,择天记 ,城市剧场测试,IPTV谍战剧场,动物兄弟第一季 ,大家的大法师之旅P,紫蓝Perse  点场,青云志
+recommend: 洛杉矶捣蛋计划,家有购物,爸爸的次婚礼,HD米奇妙妙屋第三季,动画大放映
+groundtruth: 时尚购物,IPTV,家有购物
+recommend: 喜剧影院测试,家庭影院测试,花少团爆笑学跳桑巴舞,电影捉鬼敢死队美国,像素大战
+groundtruth: 家庭影院测试,城市剧场测试,星影测试,动作影院测试,IPTV
+recommend: 精灵梦叶罗丽 第五季 ,京剧猫之信念的冒险 ,怪物公司,格林童话剧场
+groundtruth: 熊出没之探险日记 ,巴啦啦小魔仙之飞越彩灵堡 第二季 ,乐高星球大战 费明克银河探险 ,猪猪侠 第十部 五灵守卫者 ,HD新葫芦兄弟第一季,魔幻陀螺第二季 ,妈妈咪鸭,金牌笑话团 第四季 ,大耳朵图图第部TV版 ,捷德奥特曼 日配版 ,电击小子 第一季 ,京剧猫之信念的冒险 ,京剧猫 ,宝宝巴士之神奇简笔画
+recommend: 熊出没之探险日记 ,加菲猫的幸福生活 第四季 ,花少团探访亚马逊雨林,花少团爆笑学跳桑巴舞
+groundtruth: 家庭影院测试,星影测试,动作影院测试,少儿动画,IPTV,动画测试,早教测试
+recommend: 星影测试,黑猫警长之翡翠之星,终极一班 ,蝙蝠侠,名侦探柯南
+groundtruth: 经典电影,家庭影院测试,喜剧影院测试,纪实高清,星影测试,动作影院测试,少儿动画
+recommend: IPTV,家庭影院测试,烟花预告片,快乐大本营,家有购物
+groundtruth: 电影寻梦环游记美国,电影魔法灰姑娘美国爱尔兰英国,IPTV,我是大侦探,快乐大本营
+recommend: IPTV
+groundtruth: 爱生活测试,IPTV
+recommend: 终极一班
+groundtruth: 喜剧影院测试,家庭影院测试,星影测试,动作影院测试,爱生活测试,IPTV
+recommend: 终极一班
+groundtruth: 怪物公寓 ,十七岁的雨季,大话西游之月光宝盒,HD捷德奥特曼,喜剧影院测试,社交情圣,我的麦霸女友中国好麦霸,星影测试,动作影院测试,美食大冒险之文明之旅 ,米雅的精灵王国 ,大话西游之仙履奇缘,闺蜜,闪光少女,IPTV,小情书,棉花糖和云朵妈妈
+recommend: 古装剧场测试
+groundtruth: 古装剧场测试,经典电影,戏曲测试,动画测试
+recommend: 报告老板贺岁篇 ,今夕何夕,小品外卖奇遇记,名侦探狄仁杰
+groundtruth: 古装剧场测试,经典电影,喜剧影院测试,星影测试,IPTV
+recommend: 乐高未来骑士,HD西游记之大圣归来国语版,西游记之大圣归来国语版,黑猫警长之翡翠之星,探索恶魔岛
+groundtruth: 经典电影,城市剧场测试,IPTV,IPTV相声小品
+recommend: 熊出没之春日对对碰,动物兄弟第一季 ,蛋计划欢乐星球
+groundtruth: 麦咭首播剧场,美美家庭剧场,捷德奥特曼 日配版 ,小D假日剧场,动物兄弟第一季 ,艾米最早到,宾果连连看,超变武兽
+recommend: 蓝精灵：寻找神秘村,喜羊羊与灰太狼之羊年喜羊羊,怪物史莱克,HD火影忍者幻之地底遗迹原声版,HD龙珠超III
+groundtruth: 跳跳鱼世界第二季 ,女生宿舍日常 第二季 ,熊出没之雪岭熊风,熊出没之年货 ,超级飞侠第三季 ,西游降魔篇
+recommend: 烟花预告片,代号预告片
+groundtruth: 催眠大师,重返狼群,IPTV,西游降魔篇
+recommend: 报告老板贺岁篇 ,名侦探狄仁杰
+groundtruth: IPTV谍战剧场,IPTV
+recommend: 家庭影院测试
+groundtruth: 热播剧场,IPTV
+recommend: IPTV,报告老板贺岁篇 ,家庭影院测试,十万个冷笑话 第二季 ,花少团爆笑学跳桑巴舞
+groundtruth: 奔跑吧,车手,IPTV谍战剧场,大风车,IPTV
+recommend: 恰克大冒险 TV版 ,双星之阴阳师 ,钢铁侠原声版,重庆地产重,忍者之心原声版
+groundtruth: 真相特别节目,城市剧场测试,动作影院测试,温暖的弦,热播剧场,银河剧场
+recommend: IPTV
+groundtruth: IPTV
+recommend: 渝乐耍大牌首,渝乐耍大牌重
+groundtruth: 渝乐耍大牌首,电视剧场昙花梦—铁血荣耀,iGLolix  sy是个萌妹
+recommend: IPTV谍战剧场
+groundtruth: IPTV谍战剧场
+recommend: 古装剧场测试
+groundtruth: 古装剧场测试
+recommend: IPTV,特勤精英,大家的大法师之旅P,像素大战,花少团爆笑学跳桑巴舞
+groundtruth: IPTV,星影测试
+recommend: 三生三世十里桃花 ,小楼又东风 ,美好生活 ,急诊室故事 ,戏曲测试
+groundtruth: 家庭影院测试,星影测试,动作影院测试,美好生活 ,动画测试
+recommend: IPTV
+groundtruth: IPTV
+recommend: 极品家丁 ,龙门镖局第集,IPTV,鹿鼎记 ,鹿鼎记
+groundtruth: 终极一班 ,时尚购物,好久不见 ,渝乐耍大牌首,寻秦记 ,IPTV
+recommend: 星影测试,像素大战,黑猫警长之翡翠之星,超能陆战队,标清 天才眼镜狗
+groundtruth: 家庭影院测试,喜剧影院测试,城市剧场测试,星影测试,动作影院测试,爱生活测试,热播剧场,IPTV,早教测试
+recommend: IPTV
+groundtruth: IPTV
+recommend: 家庭影院测试
+groundtruth: 古装剧场测试,城市剧场测试,IPTV
+recommend: IPTV
+groundtruth: IPTV
+recommend: 城市剧场测试,热播剧场,黑猫警长之翡翠之星,钢铁侠原声版,重庆地产重
+groundtruth: 经典电影,家庭影院测试,IPTV谍战剧场,星影测试,动作影院测试,热播剧场,IPTV
+recommend: 动画狂欢曲
+groundtruth: IPTV谍战剧场,热播剧场
+recommend: 甜心格格 第二部 ,还珠格格第一部
+groundtruth: 古装剧场测试,少儿动画,热播剧场,IPTV
+recommend: IPTV,报告老板贺岁篇 ,名侦探狄仁杰
+groundtruth: 惊天解密,双雄,海上嫁女记 ,IPTV
+recommend: 纵横四海
+groundtruth: 内线前传第集,精灵梦叶罗丽 第五季 ,第四区,大祠堂第集,星影测试,HD白鹿原第集,米雅的精灵王国 ,动作影院测试,IPTV
+recommend: 奔跑吧,消防员山姆第二季TV版 ,Q版三国 ,小D假日剧场,HD灵剑山
+groundtruth: 王牌对王牌Ⅰ,博人传 火影忍者新时代 ,巨神战击队之空间战击队,开心宝贝 ,愤怒的小鸟,海绵宝宝历险记海绵出水,王牌对王牌Ⅲ,高能少年团,快乐大本营,熊出没之冬日乐翻天
+recommend: 加菲猫的幸福生活 第四季
+groundtruth: 家庭影院测试,动画测试
+recommend: 穿越火线第集,HD偷袭珍珠港原声版,HD太平洋战争原声版,HD超人动画版第二部
+groundtruth: 弹孔,战长沙,星影测试,动作影院测试,IPTV
+recommend: IPTV,今夕何夕
+groundtruth: 喜剧影院测试,IPTV
+recommend: IPTV
+groundtruth: IPTV
+recommend: 甜心格格 第二部 ,还珠格格第一部
+groundtruth: 古装剧场测试,好学生测试,纪实高清,城市剧场测试,星影测试,IPTV
+recommend: 戏曲测试,老男孩猛龙过江,动画测试,小猪佩琪 ,IPTV
+groundtruth: 古装剧场测试,小品女婿上门,小品姥爷的烦恼,IPTV谍战剧场,小品聪明的小明,CMFU学院王子碰碰球第集,捷德奥特曼 日配版 ,少儿动画,IPTV
+recommend: IPTV
+groundtruth: IPTV
+recommend: 今夕何夕,家庭影院测试
+groundtruth: 时尚购物,被偷走的那五年,喜剧影院测试,城市剧场测试,IPTV谍战剧场,纪实高清,星影测试,IPTV
+recommend: 探索恶魔岛,名侦探柯南
+groundtruth: 全明星赛NBA全明星周末HD,城市剧场测试,速度与激情,NBA最前线 HD
+recommend: 古装剧场测试
+groundtruth: 古装剧场测试
+recommend: IPTV
+groundtruth: 时尚购物,IPTV,IPTV相声小品
+recommend: IPTV
+groundtruth: IPTV
+recommend: 终极一班
+groundtruth: 电影画壁,喜剧影院测试,家庭影院测试,星影测试,动作影院测试,IPTV相声小品,爱情保卫战,IPTV
+recommend: HD大内密探零零发R国语版,凶城计中计国语版,邻家大贱谍预告片,HD小萝莉的猴神大叔原声版,小萝莉的猴神大叔
+groundtruth: 古装剧场测试,城市剧场测试,IPTV谍战剧场,星影测试,动作影院测试,IPTV,HD那刻的怦然心动 第集
+recommend: 少儿动画
+groundtruth: 少儿动画,星影测试
+recommend: 暗黑者第集,妙警贼探第四季原声版,动画狂欢曲
+groundtruth: 古装剧场测试,IPTV谍战剧场,戏曲测试,IPTV相声小品,爱生活测试
+recommend: HD星际宝贝神奇大冒险第二季,新哆啦A梦,境界之轮回S ,境界之轮回 ,花少团爆笑学跳桑巴舞
+groundtruth: 喜剧影院测试,家庭影院测试,IPTV,动作影院测试
+recommend: 动画狂欢曲
+groundtruth: 家庭影院测试,IPTV谍战剧场,星影测试,动作影院测试,海绵宝宝第三部
+recommend: 报告老板贺岁篇 ,名侦探狄仁杰
+groundtruth: 古装剧场测试,IPTV谍战剧场,IPTV
+recommend: 家庭影院测试,看个球 ,妈妈咪鸭
+groundtruth: 家有购物,头脑特工队,IPTV,熊出没之奇幻空间
+recommend: 暗黑者第集,妙警贼探第四季原声版,动画狂欢曲
+groundtruth: IPTV谍战剧场,IPTV相声小品
+recommend: IPTV
+groundtruth: IPTV
+recommend: IPTV,今夕何夕
+groundtruth: IPTV,星影测试
+recommend: IPTV,报告老板贺岁篇 ,十万个冷笑话 第二季 ,家庭影院测试,花少团爆笑学跳桑巴舞
+groundtruth: 铜雀台,城市剧场测试,热播剧场,IPTV
+recommend: IPTV,十万个冷笑话 第二季 ,乐高未来骑士,家庭影院测试,城市剧场测试
+groundtruth: 经典电影,城市剧场测试,IPTV谍战剧场,IPTV相声小品,IPTV
+recommend: 黑土热血 ,烈火刀影,乱世佳人国语版,大明谜案 蓝玉谋反案
+groundtruth: 好学生测试,长征大会师 ,IPTV谍战剧场,戏曲测试,动作影院测试,战火中的兄弟
+recommend: 十二宫,王牌对王牌上,王牌对王牌Ⅰ,王牌对王牌Ⅲ
+groundtruth: 经典电影,IPTV谍战剧场,动作影院测试
+recommend: IPTV
+groundtruth: IPTV
+recommend: 阿贡中文TV版
+groundtruth: HD新葫芦兄弟第一季,IPTV谍战剧场
+recommend: 开心剧场生死猎杀,监狱风云国语版,邻家女特工第一季原声版,敢死队Ⅱ,HD神枪手
+groundtruth: 家庭影院测试,敢死队Ⅱ,开心剧场生死猎杀,HD烟花国语版,电影敢死队美国,不可能完成的任务
+recommend: IPTV,报告老板贺岁篇 ,十万个冷笑话 第二季 ,花少团爆笑学跳桑巴舞,家庭影院测试
+groundtruth: 古装剧场测试,经典电影,喜剧影院测试,动作影院测试,回家的路有多远,少儿动画,IPTV
+recommend: 我该怎么办 ,报告老板贺岁篇 ,家庭影院测试,今夕何夕
+groundtruth: 经典电影,好学生测试,城市剧场测试,IPTV谍战剧场,星影测试,动作影院测试,IPTV相声小品,热播剧场,IPTV
+recommend: 城市剧场测试,热播剧场,乐高未来骑士,IPTV,家庭影院测试
+groundtruth: 热播剧场,IPTV,动作影院测试,星影测试
+recommend: 识色幸也,海峡两岸,TICO欢乐假日周末,戏曲测试,奔跑吧
+groundtruth: 迪迦奥特曼new,好学生测试,纪实高清,星影测试,IPTV相声小品,IPTV
+recommend: 我该怎么办 ,IPTV,报告老板贺岁篇
+groundtruth: 三生三世十里桃花,敢死队Ⅱ,IPTV,IPTV相声小品
+recommend: 甜心格格 第二部 ,还珠格格第一部
+groundtruth: 古装剧场测试,喜剧影院测试,家庭影院测试,城市剧场测试,星影测试,爱生活测试,IPTV
+recommend: 一剧场铁血荣耀—
+groundtruth: 初恋未满,武林风精编版,家庭影院测试,电视剧场猎王刀—,喜剧影院测试,一剧场铁血荣耀—,IPTV,雾都夜话
+recommend: 终极一班
+groundtruth: 时尚购物,IPTV谍战剧场,戏曲测试,星影测试,动作影院测试
+recommend: 动画狂欢曲
+groundtruth: 经典电影,IPTV谍战剧场,纪实高清,热播剧场,IPTV
+recommend: 甜心格格 第二部 ,还珠格格第一部
+groundtruth: 古装剧场测试,经典电影,喜剧影院测试,星影测试,动作影院测试,热播剧场
+recommend: 完美男人原声版,爸爸的次婚礼,HD老表毕业喇国语版,变身国王上学记,电影魔法灰姑娘美国爱尔兰英国
+groundtruth: 时尚购物,家有购物
+recommend: IPTV,今夕何夕
+groundtruth: IPTV,动作影院测试
+recommend: 时尚购物,IPTV,家有购物,喜剧影院测试,捉妖记
+groundtruth: IPTV相声小品
+recommend: 美国队长：寒冬战士,星影测试,黑猫警长之翡翠之星,复仇者联盟,终极一班
+groundtruth: 家庭影院测试,纪实高清,星影测试,动作影院测试,TICO欢乐假日,少儿动画,IPTV,动画测试,早教测试
+recommend: IPTV
+groundtruth: IPTV
+recommend: 古装剧场测试
+groundtruth: 古装剧场测试
+recommend: IPTV,报告老板贺岁篇 ,十万个冷笑话 第二季 ,家庭影院测试,花少团爆笑学跳桑巴舞
+groundtruth: 古装剧场测试,迪迦奥特曼new,HD捷德奥特曼,IPTV谍战剧场,IPTV
+recommend: 地狱男爵R原声版
+groundtruth: 戏曲测试,时尚购物,星影测试,动作影院测试
+recommend: 家庭影院测试,HD星际宝贝神奇大冒险第二季,新哆啦A梦,IPTV,花少团爆笑学跳桑巴舞
+groundtruth: 忍者神龟国语,猪猪侠之超星萌宠 ,熊出没之探险日记 ,好学生测试,纪实高清,兽王争锋之原石之力 ,机变英盟 第二季 ,猎车兽魂 ,熊出没之雪岭熊风,IPTV,超变武兽
+recommend: IPTV
+groundtruth: IPTV
+recommend: HD烟花国语版,电波教师 ,少女与战车剧场版,动画测试,HD生死回放
+groundtruth: 少儿动画,城市剧场测试,动画测试
+recommend: 古装剧场测试
+groundtruth: 古装剧场测试
+recommend: 动画狂欢曲
+groundtruth: 古装剧场测试,IPTV谍战剧场,星影测试,动作影院测试,IPTV相声小品,少儿动画,热播剧场,IPTV
+recommend: 花少团爆笑学跳桑巴舞,家庭影院测试,动画测试,古装剧场测试,看个球
+groundtruth: 家庭影院测试,动画测试,IPTV
+recommend: 星影测试,迪迦奥特曼new
+groundtruth: 经典电影,星影测试,天下足球
+recommend: IPTV
+groundtruth: IPTV
+recommend: 完美男人原声版,爸爸的次婚礼,HD老表毕业喇国语版,变身国王上学记,电影魔法灰姑娘美国爱尔兰英国
+groundtruth: 爱生活测试,IPTV,家有购物,早教测试
+recommend: IPTV,报告老板贺岁篇 ,古装剧场测试,家庭影院测试,花少团爆笑学跳桑巴舞
+groundtruth: 古装剧场测试,IPTV,好学生测试
+recommend: 热播剧场,中国诗词大会Ⅲ,综艺喜乐汇,HD捷德奥特曼剧场版国语版,人偶总动员
+groundtruth: 热播剧场,城市剧场测试,高能少年团,快乐大本营
+recommend: 开心宝贝 ,阿贡中文TV版 ,早教测试,少儿动画,猎车兽魂
+groundtruth: 阿贡中文TV版 ,夺路而逃,TICO成长快车,翼飞冲天之天际战骑 ,星影测试,电影鲛珠传,愤怒的小鸟,HD烟花国语版,美国队长
+recommend: 飞天小女警第四季,飞天小女警第二季,飞天小女警第一季,我的朋友猪迪克 ,少年师爷之侠义欢乐行
+groundtruth: 熊出没之探险日记 ,巴啦啦小魔仙之飞越彩灵堡 第二季 ,智趣羊学堂之羊羊游世界 ,熊熊乐园 ,动物兄弟第一季 ,超级飞侠 ,海底小纵队 ,魔弹王 ,超级飞侠第三季
+recommend: X战警,美国队长：寒冬战士,银河护卫队,星影测试,像素大战
+groundtruth: 星影测试,动作影院测试,IPTV
+recommend: 终极一班
+groundtruth: 古装剧场测试,好学生测试,家庭影院测试,戏曲测试,星影测试,动作影院测试,IPTV
+recommend: 报告老板贺岁篇 ,古装剧场测试,IPTV,加菲猫的幸福生活 第四季 ,花少团爆笑学跳桑巴舞
+groundtruth: 古装剧场测试,IPTV谍战剧场,城市剧场测试,IPTV
+recommend: IPTV,报告老板贺岁篇 ,花少团爆笑学跳桑巴舞,十万个冷笑话 第二季 ,奔跑吧
+groundtruth: 古装剧场测试,三国机密之潜龙在渊 ,远大前程 ,IPTV谍战剧场,HD心理罪第一季,IPTV,三生三世十里桃花 第集
+recommend: 终极一班
+groundtruth: 喜剧影院测试,家庭影院测试,星影测试,动作影院测试,表情奇幻冒险,小猪佩奇第一季
+recommend: 报告老板贺岁篇 ,名侦探狄仁杰
+groundtruth: 喜剧影院测试,戏曲测试,IPTV谍战剧场,动作影院测试,IPTV
+recommend: IPTV,十万个冷笑话 第二季 ,家庭影院测试,花少团爆笑学跳桑巴舞,热播剧场
+groundtruth: 古装剧场测试,经典电影,奔跑吧,真相特别节目,纪实高清,星影测试,热播剧场,IPTV
+recommend: 凶城计中计国语版,电影最后的假期美国,邻家大贱谍预告片,HD小萝莉的猴神大叔原声版,小萝莉的猴神大叔
+groundtruth: 渝乐耍大牌重,IPTV谍战剧场,古装剧场测试,IPTV
+recommend: IPTV,报告老板贺岁篇 ,娃娃惊魂,花少团爆笑学跳桑巴舞,恋妻家宫本
+groundtruth: 标清 你是我的眼 第集,生逢灿烂的日子,IPTV
+recommend: TICO欢乐假日
+groundtruth: TICO欢乐假日,TICO欢乐假日周末,动画梦工场,小小智慧树
+recommend: 星影测试,疯狂的麦克斯狂暴之路,末日侵袭,星际传奇,忍者神龟 破影而出
+groundtruth: 家庭影院测试,星影测试,动作影院测试,爱生活测试,IPTV
+recommend: 城市剧场测试,黑猫警长之翡翠之星,钢铁侠原声版,重庆地产重,忍者之心原声版
+groundtruth: 喜剧影院测试,城市剧场测试,HD你好旧时光第集,温暖的弦
+recommend: IPTV
+groundtruth: IPTV
+recommend: 乐高未来骑士,小胖妞TV版 ,HD西游记之大圣归来国语版,西游记之大圣归来国语版
+groundtruth: 城市剧场测试,IPTV
+recommend: 家庭影院测试,今夕何夕
+groundtruth: 纪实高清,动作影院测试,爱生活测试,热播剧场,IPTV
+recommend: IPTV
+groundtruth: IPTV
+recommend: IPTV
+groundtruth: IPTV
+recommend: 黑侠国语版,变形金刚 第一季
+groundtruth: 喜剧影院测试,家庭影院测试,星影测试,动作影院测试
+recommend: 爱情公寓 ,好学生测试,唐伯虎点秋香,大话西游之爱你一万年 ,HD大话西游之爱你一万年 第集
+groundtruth: 古装剧场测试,喜剧影院测试,爱生活测试,IPTV相声小品
+recommend: 烟花预告片,代号预告片
+groundtruth: 猪猪侠之幸福救援队,巴啦啦小魔仙之飞越彩灵堡 第二季 ,斗龙战士第一部,巴啦啦小魔仙真人版,战斗王之飓风战魂第三季,米雅的精灵王国 ,哆啦A梦第六部,神兽金刚第二季,IPTV,斗龙战士第二部new,进击的机甲之圣戒飞陀,超凡战队之极度动力 ,艾可魔法少女
+recommend: 魔都风云 ,温暖的弦,青春派,巨浪 ,壮志凌云
+groundtruth: 今日说法,最美是你 DVD版 ,恋恋不忘 ,星影测试,温暖的弦,兰陵王第集,NBA东部决赛骑士凯尔特人,你好乔安 第集,长在面包树上的女人 第集,海豚第剧场
+recommend: 新笑傲江湖
+groundtruth: 戏曲测试,蜀山战纪剑侠传奇第集,好学生测试
+recommend: 古装剧场测试
+groundtruth: 古装剧场测试
+recommend: 飞天小女警第四季,飞天小女警第二季,飞天小女警第一季,我的朋友猪迪克 ,少年师爷之侠义欢乐行
+groundtruth: 动画测试,IPTV相声小品,好学生测试,早教测试
+recommend: 我该怎么办 ,报告老板贺岁篇 ,小品外卖奇遇记,名侦探狄仁杰
+groundtruth: 古装剧场测试,戏曲测试,IPTV,动作影院测试
+recommend: 中华医药
+groundtruth: 新闻大求真,奔跑吧,今日说法,人偶总动员,女人有话说,青春同学会,人偶总动员Ⅲ,中国蓝周播剧场,极限挑战Ⅳ精编版,爱生活测试,生机无限,IPTV,新相亲时代,HD烟花国语版,非诚勿扰,三生三世十里桃花,天天向上
+recommend: 终极一班
+groundtruth: 经典电影,喜剧影院测试,家庭影院测试,戏曲测试,星影测试,动作影院测试,IPTV相声小品
+recommend: 恰克大冒险 TV版 ,双星之阴阳师 ,钢铁侠原声版,重庆地产重,忍者之心原声版
+groundtruth: 城市剧场测试,IPTV谍战剧场,星影测试,动作影院测试,少儿动画,动画测试
+recommend: 复仇者联盟,迪迦奥特曼new
+groundtruth: 迪迦奥特曼new
+recommend: IPTV谍战剧场
+groundtruth: IPTV谍战剧场
+recommend: 奔跑吧,戏曲测试,TICO欢乐假日周末,温暖的弦,三生三世十里桃花
+groundtruth: 古装剧场测试,时尚购物,好学生测试,IPTV谍战剧场,城市剧场测试,星影测试,动作影院测试,IPTV相声小品,爱生活测试,IPTV,家有购物
+recommend: 电击小子 第一季 ,超级飞侠第三季 ,HD奇缘国语版,第一动画乐园,美人鱼国语版
+groundtruth: 超神游戏 ,少年师爷之知礼万事通 ,三国机密之潜龙在渊 ,新白娘子传奇第集,HD后妈的春天 第集,熊熊乐园 ,女娲传说之灵珠 ,彩色童话故事 ,因为爱情有晴天,青云志 ,逗逗迪迪爱探险
+recommend: IPTV
+groundtruth: IPTV
+recommend: IPTV
+groundtruth: IPTV
+recommend: 阿贡中文TV版 ,你好像很美味啊剧场版,开心宝贝 ,少儿动画,猫和老鼠
+groundtruth: 阿贡中文TV版 ,跳跳鱼世界 ,名侦探柯南 ,狐妖小红娘 ,麦咭首播剧场,跳跳鱼世界第二季 ,HD名侦探柯南：纯黑的恶梦
+recommend: 奔跑吧, 生活麻辣烫 一个人的火锅下,报告老板贺岁篇 ,IPTV,暗黑者第集
+groundtruth: IPTV谍战剧场,IPTV
+recommend: 烟花预告片,代号预告片
+groundtruth: 炫动卡通,酷片酷映,卡酷卡通,人偶总动员Ⅲ,动画梦工场,IPTV,银河剧场
+recommend: IPTV,TICO欢乐假日,花少团爆笑学跳桑巴舞,甜心格格 第二部 ,还珠格格第一部
+groundtruth: 古装剧场测试,奔跑吧,好学生测试,荒村凶间,喜剧影院测试,IPTV谍战剧场,青春派,电影蜘蛛侠：英雄归来美国,IPTV相声小品,IPTV,HD赛罗奥特曼英雄传,美女与野兽,中国龙黄金剧场
+recommend: IPTV
+groundtruth: IPTV
+recommend: 家庭影院测试
+groundtruth: 纪实高清,热播剧场,IPTV
+recommend: 甜心格格 第二部 ,还珠格格第一部
+groundtruth: 古装剧场测试,HD勇者大冒险第一季,捷德奥特曼剧场版,HD生死回放,TICO动漫星球,艾斯奥特曼,四季味道,三生三世十里桃花 第集
+recommend: 报告老板贺岁篇 ,小品外卖奇遇记,名侦探狄仁杰
+groundtruth: 琅琊榜,精彩音乐汇,IPTV
+recommend: 动画狂欢曲,凶城计中计国语版,邻家大贱谍预告片,HD小萝莉的猴神大叔原声版,小萝莉的猴神大叔
+groundtruth: 古装剧场测试,经典电影,IPTV谍战剧场,热播剧场,IPTV
+recommend: 家庭影院测试
+groundtruth: 少儿动画,IPTV
+recommend: 我是幸运儿第集,我的灵界男友 ,草莓甜心第一季
+groundtruth: 谈判官 ,HD我们的少年时代第集,因为爱情有多美第集,班长大人第集,IPTV相声小品,千金女贼 ,IPTV,下一站别离 ,同桌的你
+recommend: 飞天小女警第四季,飞天小女警第二季,飞天小女警第一季,我的朋友猪迪克 ,少年师爷之侠义欢乐行
+groundtruth: 马达加斯加欧洲通缉犯,家庭影院测试,小黄人大眼萌,猪猪侠 第十部 五灵守卫者 ,功夫兔与菜包狗TV版 ,火鸡哥 ,怪物史莱克,阿贡中文TV版 ,开心宝贝 ,熊熊乐园 ,金沙血,熊出没之年货 ,莫麟传奇 ,熊出没之探险日记 ,神域少女 ,阿U之神奇萝卜 ,熊出没之雪岭熊风,Hi鸭力 ,哈喽葡星人 ,百变星球历险记 ,超级飞侠第三季
+recommend: 辣妈正传第集,幸福计 ,恋妻家宫本,洋妞到我家国语版,爱回家之开心速递第十五部国语版
+groundtruth: 风云天地第集,巨浪 ,IPTV
+recommend: 笑傲江湖版国语版,霹雳菩萨new,霹雳菩萨NEW,六指琴魔,如来神掌
+groundtruth: 蜀山战纪剑侠传奇第集,纪实高清,星影测试,IPTV
+recommend: 家庭影院测试,喜剧影院测试,花少团爆笑学跳桑巴舞,看个球 ,古装剧场测试
+groundtruth: 经典电影,纪实高清,IPTV谍战剧场,IPTV相声小品,热播剧场,IPTV
+recommend: 乡村爱情上 ,乡村爱情下 ,电影最后的假期美国,布达佩斯大饭店原声版,穿越大吉岭
+groundtruth: HD勇者大冒险第一季,我爱男保姆 ,HD烟花国语版,八九不离十
+recommend: 神奇阿哟 ,女生宿舍日常 第二季 ,动画测试,家庭影院测试,十万个冷笑话 第二季
+groundtruth: 超神游戏 ,越狱兔 ,戴拿奥特曼new,熊出没之探险日记 ,泰罗奥特曼,冰河世纪,CMFU学院王子碰碰球第集,十万个冷笑话 第二季 ,枪娘第集,疯狂原始人 ,极速蜗牛第一季 狂奔 ,Hi鸭力
+recommend: 谍影重重,银河剧场,看门狗,终极一班 ,王牌对王牌Ⅰ
+groundtruth: 幸福照相馆,奔跑吧,亲家来了,电影燃烧美国,敢死队Ⅱ,奔跑吧先导片,动作影院测试,电影巴黎危机法国美国英国,电影人口交易英国,电影堡垒美国,爱情保卫战,新相亲时代
+recommend: 我不是精英 ,最佳嫌疑人,盗马记,我的辣妹保镖第集
+groundtruth: 家庭影院测试,IPTV谍战剧场,纪实高清,IPTV相声小品,爱生活测试,热播剧场,IPTV
+recommend: IPTV
+groundtruth: IPTV
+recommend: 蝙蝠侠,HD蝙蝠侠前传：黑暗骑士,黑侠国语版
+groundtruth: 时尚购物,家庭影院测试,IPTV谍战剧场,动作影院测试,IPTV相声小品,爱生活测试,IPTV,早教测试
+recommend: 凶城计中计国语版,邻家大贱谍预告片,HD小萝莉的猴神大叔原声版,小萝莉的猴神大叔,终极一班
+groundtruth: 古装剧场测试,好学生测试,喜剧影院测试,城市剧场测试,星影测试,动作影院测试,热播剧场,IPTV,动画测试,早教测试
+recommend: IPTV
+groundtruth: IPTV,IPTV相声小品
+recommend: IPTV,时尚购物,十万个冷笑话 第二季 ,家庭影院测试,动画梦工场
+groundtruth: 时尚购物,IPTV
+recommend: 乐高未来骑士,IPTV,黑猫警长之翡翠之星,HD西游记之大圣归来国语版,西游记之大圣归来国语版
+groundtruth: 古装剧场测试,城市剧场测试,星影测试,热播剧场,IPTV
+recommend: IPTV
+groundtruth: IPTV
+recommend: 家庭影院测试
+groundtruth: HD新葫芦兄弟第一季,IPTV
+recommend: 我该怎么办 ,IPTV,报告老板贺岁篇 ,今夕何夕
+groundtruth: 经典电影,奔跑吧,好学生测试,星影测试,爱生活测试,IPTV
+recommend: IPTV
+groundtruth: IPTV
+recommend: IPTV
+groundtruth: IPTV
+recommend: IPTV
+groundtruth: IPTV
+recommend: 整点车市,李克勤得心应手演唱会上,第一时间,阿布故事愚公移山
+groundtruth: 纪实高清,IPTV
+recommend: 像素大战,星影测试,黑猫警长之翡翠之星,超能陆战队,标清 天才眼镜狗
+groundtruth: 经典电影,家庭影院测试,喜剧影院测试,星影测试,动作影院测试,IPTV,动画测试
+recommend: 我该怎么办 ,IPTV,报告老板贺岁篇
+groundtruth: NBA东部决赛骑士凯尔特人,IPTV,一线
+recommend: 古装剧场测试
+groundtruth: 古装剧场测试,动画测试
+recommend: IPTV
+groundtruth: IPTV
+recommend: 熊出没之春日对对碰,动物兄弟第一季 ,蛋计划欢乐星球 ,怪物公司
+groundtruth: 迪迦奥特曼new,戴拿奥特曼new,HD泡沫之夏  第集,好学生测试,IPTV谍战剧场,城市剧场测试,梦比优斯奥特曼,赛文奥特曼,动物兄弟第一季 ,少儿动画,爱生活测试,热播剧场,海底小纵队 ,HD赛罗奥特曼英雄传,奔跑吧兄弟第四季 ,HD你好旧时光第集,咸蛋超人,杰克奥特曼,动画测试,早教测试
+recommend: IPTV
+groundtruth: 时尚购物,IPTV
+recommend: 魔弹王 ,HD烟花国语版,美食大冒险 第二季 ,少年锦衣卫第二季第集,天行九歌TV版
+groundtruth: 奥特银河大怪兽之战,无尽的圣战,米雅的精灵王国 ,飞天小女警第一季,摇滚萝莉,少年锦衣卫第二季第集
+recommend: IPTV
+groundtruth: IPTV
+recommend: 甜心格格 第二部 ,还珠格格第一部
+groundtruth: 古装剧场测试,家庭影院测试,美美家庭剧场,百变马丁Ⅲ,少儿动画,热播剧场,大耳朵图图Ⅳ
+recommend: IPTV
+groundtruth: IPTV
+recommend: 第一时间
+groundtruth: 炫动卡通,全纪实,中国达人秀,卡酷卡通,雾都夜话
+recommend: 跳跳鱼世界 ,狐妖小红娘 ,跳跳鱼世界第二季 ,动画测试,城市剧场测试
+groundtruth: 海底小纵队第二部,超级飞侠第三季
+recommend: 家庭影院测试,今夕何夕
+groundtruth: 古装剧场测试,家庭影院测试,喜剧影院测试,城市剧场测试,星影测试,动作影院测试,IPTV,动画测试
+recommend: 动画大放映,樱桃小丸子VIII,少儿动画,家庭影院测试,喜剧影院测试
+groundtruth: 古装剧场测试,像素大战,迷糊餐厅 ,喜剧影院测试,勇闯黄金城,IPTV谍战剧场,城市剧场测试,星影测试,少儿动画,热播剧场,变形金刚,IPTV
+recommend: IPTV
+groundtruth: IPTV
+recommend: IPTV
+groundtruth: IPTV
+recommend: 暗黑者第集,妙警贼探第四季原声版,动画狂欢曲
+groundtruth: IPTV谍战剧场,IPTV
+recommend: 我该怎么办 ,IPTV,报告老板贺岁篇
+groundtruth: 爱生活测试,IPTV,好学生测试
+recommend: 爱生活测试,时尚购物,芙蓉诀 ,金玉良缘
+groundtruth: 爱生活测试,高能少年团
+recommend: 动画乐翻天,小时代 ,爱情公寓 第三季 ,HD大内密探零零发R国语版,超级快递
+groundtruth: 电影做次有钱人,神奇侠侣,HD苦乐村官,敢死队Ⅱ,星影测试,温暖的弦,电影一路惊喜,非诚勿扰,快乐大本营
+recommend: 鹿鼎记 ,甜心格格 第二部 ,还珠格格第一部
+groundtruth: 鹿鼎记
+recommend: 甜心格格 第二部 ,还珠格格第一部
+groundtruth: 古装剧场测试,城市剧场测试,三生三世十里桃花 第集,奔跑吧
+recommend: 城市剧场测试,黑猫警长之翡翠之星,钢铁侠原声版,重庆地产重,忍者之心原声版
+groundtruth: 古装剧场测试,喜剧影院测试,家庭影院测试,城市剧场测试,星影测试,动作影院测试,热播剧场
+recommend: IPTV,HD电视剧异镇,电视剧异镇,电视剧异镇new,皮帕李的私生活
+groundtruth: 古装剧场测试,好学生测试,喜剧影院测试,戏曲测试,IPTV相声小品,IPTV
+recommend: 喜剧影院测试
+groundtruth: 喜剧影院测试
+recommend: HD那刻的怦然心动 第集,内线前传第集,美好生活 ,八九不离十 ,因为爱情有晴天
+groundtruth: HD那刻的怦然心动 第集,HD你好旧时光第集
+recommend: 甜心格格 第二部 ,还珠格格第一部
+groundtruth: 古装剧场测试,喜剧影院测试,城市剧场测试,IPTV谍战剧场
+recommend: 家庭影院测试,看个球 ,妈妈咪鸭
+groundtruth: 熊熊乐园,少儿动画,动画大放映,IPTV,熊出没之春日对对碰
+recommend: 忍者神龟 破影而出,忍者神龟国语,超能陆战队,超能陆战队国语版,电影超能陆战队美国
+groundtruth: 家庭影院测试,喜剧影院测试,童趣大冒险,星影测试,动作影院测试,海绵宝宝历险记海绵出水,电影大话西游之月光宝盒
+recommend: 洛杉矶捣蛋计划,家有购物,爸爸的次婚礼,HD米奇妙妙屋第三季,动画大放映
+groundtruth: 好学生测试,家有购物
+recommend: 万万没想到之小兵过年 ,IPTV,像素大战,花少团爆笑学跳桑巴舞,终极一班
+groundtruth: 古装剧场测试,喜剧影院测试,城市剧场测试,星影测试,动作影院测试,IPTV相声小品,IPTV
+recommend: 家庭影院测试,今夕何夕,看个球 ,妈妈咪鸭
+groundtruth: HD比得兔国语版,星影测试,少儿动画,舞法天女朵法拉第一季,IPTV,捷德奥特曼
+recommend: 封神英雄榜 第集,中国蓝周播剧场,少年四大名捕 第集,奔跑吧,电影画壁
+groundtruth: 金太狼的幸福生活,普法栏目剧,真相特别节目,剧场,奔跑吧,车手,动画测试,封神英雄榜 第集
+recommend: 钢铁侠原声版,重庆地产重,黑猫警长之翡翠之星,忍者之心原声版
+groundtruth: 古装剧场测试,经典电影,动作影院测试,热播剧场,IPTV,HD烟花国语版
+recommend: TICO成长快车,奔跑吧,动画测试,HD烟花国语版,老男孩猛龙过江
+groundtruth: 喜剧影院测试,家庭影院测试,IPTV谍战剧场,戏曲测试,城市剧场测试,星影测试,少儿动画,IPTV,动画测试
+recommend: 欧布奥特曼 ,虚拟现实战,星影测试,捷德奥特曼 日配版 ,阿尔法
+groundtruth: 城市剧场测试,纪实高清,IPTV谍战剧场,星影测试,动作影院测试,热播剧场,IPTV
+recommend: 星影测试,迪迦奥特曼new
+groundtruth: 星影测试
+recommend: 古装剧场测试
+groundtruth: 古装剧场测试
+recommend: 黎明之前 ,HD大宋提刑官new
+groundtruth: 经典电影,IPTV谍战剧场,热播剧场,IPTV
+recommend: IPTV
+groundtruth: IPTV
+recommend: IPTV
+groundtruth: IPTV
+recommend: 阿贡中文TV版
+groundtruth: 少儿动画,IPTV谍战剧场
+recommend: 凶城计中计国语版,邻家大贱谍预告片,HD小萝莉的猴神大叔原声版,小萝莉的猴神大叔,小萝莉的猴神大叔原声版
+groundtruth: 好学生测试,家庭影院测试,IPTV谍战剧场,纪实高清,城市剧场测试,星影测试,戏曲测试,IPTV相声小品,动作影院测试,少儿动画,热播剧场,IPTV,三生三世十里桃花
+recommend: 甜心格格 第二部 ,还珠格格第一部
+groundtruth: 古装剧场测试,动画测试,IPTV,好学生测试
+recommend: 情满四合院,远大前程 ,奔跑吧,琅琊榜,三国机密之潜龙在渊
+groundtruth: 突围行动国语版,奔跑吧,三国机密之潜龙在渊 ,IPTV谍战剧场,HD白鹿原第集,少儿动画,硬骨头之绝地归途,电视剧场昙花梦—铁血荣耀,乱世丽人行 第集
+recommend: 少儿动画
+groundtruth: 奔跑吧,标清 天才眼镜狗,动作影院测试,少儿动画,标清 智慧树 ,使徒行者
+recommend: 我该怎么办 ,IPTV,报告老板贺岁篇 ,今夕何夕
+groundtruth: 真相特别节目,电影巴黎危机法国美国英国,动作影院测试,星影测试,IPTV
+recommend: 古装剧场测试,猪八戒下凡,太乙仙魔录之灵飞纪第二季 ,甜心格格 第二部 ,还珠格格第一部
+groundtruth: 古装剧场测试,第一动画乐园,戴拿奥特曼new,pig,HD捷德奥特曼,青云志 第集,城市剧场测试,HD新葫芦兄弟第一季,梦比优斯奥特曼,动画梦工场,少儿动画,一剧场铁血荣耀—,动画测试,封神英雄榜 第集
+recommend: 兰陵王第集,温暖的弦,HD狙击精英巅峰对决原声版,苍狼,精武门
+groundtruth: 王牌对王牌Ⅰ,神奇侠侣,内线前传第集,好学生测试,敢死队Ⅱ,星影测试,小小智慧树,动画大放映,青云志
+recommend: 卡酷卡通,HD羞羞的铁拳国语版
+groundtruth: 捉妖记,IPTV
+recommend: 凶城计中计国语版,电影最后的假期美国,邻家大贱谍预告片,HD小萝莉的猴神大叔原声版,小萝莉的猴神大叔
+groundtruth: 古装剧场测试,奔跑吧,动画测试,IPTV,我是大侦探,HD烟花国语版,天天向上,高能少年团,快乐大本营,HD那刻的怦然心动 第集,早教测试
+recommend: 动画测试,HD烟花国语版,老男孩猛龙过江,加菲猫的幸福生活 第四季 ,俏皮大嘴猫之重返城市
+groundtruth: 阿贡中文TV版 ,鸡毛飞上天第集,奔跑吧,煎饼侠,功夫鸡,TICO欢乐假日,动画大放映,人与自然
+recommend: 突围行动国语版,奔跑吧,神犬奇兵第集,远大前程 ,铁血尖刀
+groundtruth: 奔跑吧
+recommend: 中华医药
+groundtruth: 中国蓝剧场,奔跑吧,高能少年团,奔跑吧先导片
+recommend: 绣春刀,标清 电影十八般武艺,三少爷的剑
+groundtruth: 新笑傲江湖 ,终极一班 ,热播剧场,人民的名义
+recommend: TICO成长快车,幸福照相馆,我是幸运儿第集,柠檬初上 ,温暖的弦
+groundtruth: 奔跑吧,王牌对王牌Ⅰ,神犬奇兵第集,苍狼,青春同学会,微微一笑很倾城 ,TICO成长快车,青云志 第集,中国蓝周播剧场,温暖的弦,少年四大名捕 第集,因为爱情有晴天,我是大侦探,高能少年团,快乐大本营,因为爱情有多美
+recommend: 热天午后,通天大盗国语版,纵横四海
+groundtruth: 大话西游之仙履奇缘,楚乔传第集,熊出没之春日对对碰
+recommend: 加菲猫的幸福生活 第四季
+groundtruth: 加菲猫的幸福生活 第四季 ,消防员山姆第二季TV版 ,金牌熊猫 ,金牌笑话团 第四季 ,大耳朵图图第部TV版 ,功夫兔与菜包狗TV版 ,摇滚萝莉 第季
+recommend: 硬骨头之绝地归途,地火 ,战火中的兄弟 ,生死兄弟情第集,东方战场第集
+groundtruth: 爱人同志 ,好家伙第集
+recommend: 侬本多情之乱世浮生 ,大明谜案 蓝玉谋反案,战国
+groundtruth: 美美家庭剧场,理发师 ,星影测试,海绵宝宝 第七季 ,一代枭雄第集,小公主苏菲亚
+recommend: HD那刻的怦然心动 第集,HD你好旧时光第集,内线前传第集,美好生活 ,八九不离十
+groundtruth: HD那刻的怦然心动 第集
+recommend: 银河剧场,超变战陀,TICO动漫星球,机动战士敢达 铁血的奥尔芬斯 ,猎车兽魂
+groundtruth: 托马斯和他的朋友们 第十五季 ,爱探险的朵拉第八季 ,精灵梦叶罗丽 第五季 ,长江图,神奇阿哟 ,巨神战击队之超救分队 ,比得兔特别篇
+recommend: 海峡两岸,红高粱,红高粱new,动画测试,火线追凶之掘墓人
+groundtruth: 索玛花开 , 凡人有事 孩子和我到底谁重要,初心
+recommend: 家庭影院测试
+groundtruth: 热播剧场,IPTV
+recommend: IPTV
+groundtruth: IPTV
+recommend: 雷神黑暗世界,巴霍巴利王开端,电影寻龙诀,西游记,西游记TVB版国语版
+groundtruth: 奔跑吧,美国队长：寒冬战士,雷神黑暗世界,铜雀台,蚁人,数码宝贝第一季 ,新笑傲江湖
+recommend: 终极一班
+groundtruth: 经典电影,IPTV,动作影院测试
+recommend: 青云志 第集,梦幻西游 ,少年四大名捕 第集,青云志 ,仙剑奇侠传三
+groundtruth: 择天记 ,魔弹王 ,青云志
+recommend: IPTV,报告老板贺岁篇 ,十万个冷笑话 第二季 ,家庭影院测试,猪八戒下凡
+groundtruth: 新笑傲江湖 ,IPTV
+recommend: IPTV,报告老板贺岁篇 ,HD爱回家之开心速递第十四部国语版,一线,花少团爆笑学跳桑巴舞
+groundtruth: IPTV,老爹的非城勿扰 ,青春期撞上更年期
+recommend: IPTV,今夕何夕
+groundtruth: IPTV,星影测试
+recommend: 热天午后,通天大盗国语版,纵横四海
+groundtruth: 阿贡中文TV版 ,神偷奶爸,功夫兔与菜包狗TV版 ,IPTV,急诊科医生 ,少年锦衣卫第二季第集
+recommend: IPTV
+groundtruth: IPTV
+recommend: 洛杉矶捣蛋计划,爸爸的次婚礼,HD电视剧异镇,电视剧异镇,电视剧异镇new
+groundtruth: 古装剧场测试,经典电影,时尚购物,TICO欢乐假日周末,喜剧影院测试,家庭影院测试,电影老炮儿,动作影院测试,TICO欢乐假日,热播剧场,IPTV,家有购物
+recommend: 黑猫警长之翡翠之星,星影测试,终极一班 ,蝙蝠侠,名侦探柯南
+groundtruth: 经典电影,喜剧影院测试,家庭影院测试,星影测试,动作影院测试,IPTV
+recommend: 家庭影院测试,花少团爆笑学跳桑巴舞,看个球 ,动画大放映,古装剧场测试
+groundtruth: 经典电影,时尚购物,IPTV相声小品,少儿动画,IPTV,家有购物
+recommend: 功夫兔与菜包狗TV版 ,十万个冷笑话 第二季 ,家庭影院测试,花少团爆笑学跳桑巴舞,喜剧影院测试
+groundtruth: 阿贡中文TV版 ,爱探险的朵拉第八季 ,TICO动漫星球,猎车兽魂 ,IPTV,百变星球历险记
+recommend: 动画狂欢曲
+groundtruth: 经典电影,IPTV谍战剧场,热播剧场
+recommend: 甜心格格 第二部 ,还珠格格第一部
+groundtruth: 古装剧场测试,三生三世十里桃花 ,三生三世十里桃花 第集
+recommend: 催眠大师,恐怖禁忌之红旗袍,凄灵室,恐怖禁忌之红旗袍国语版,窃听风云
+groundtruth: 经典电影,新乌龙山剿匪记 ,使徒行者 ,红色 ,IPTV谍战剧场,精武门 ,热血 ,美好生活 ,舞蹈丝路霓裳,爱情闯进门 ,好先生 ,新笑傲江湖 ,新萧十一郎TV版第集
+recommend: IPTV谍战剧场
+groundtruth: IPTV谍战剧场
+recommend: HD白鹿原第集,风筝第集,好家伙第集,后海不是海
+groundtruth: NBA东部决赛骑士凯尔特人,HD白鹿原第集
+recommend: 穆桂英挂帅 ,烈火刀影,中国龙黄金剧场,电影大话西游之月光宝盒
+groundtruth: 经典电影,城市剧场测试,星影测试,爱生活测试,热播剧场
+recommend: 地火 ,战火中的兄弟 ,硬骨头之绝地归途,生死兄弟情第集,东方战场第集
+groundtruth: 硬骨头之绝地归途
+recommend: 中华文明之美
+groundtruth: 爱探险的朵拉 ,爱探险的朵拉第八季 ,IPTV
+recommend: IPTV,报告老板贺岁篇 ,猪八戒下凡,花少团爆笑学跳桑巴舞,将军在上
+groundtruth: 古装剧场测试,好学生测试,动作影院测试,IPTV相声小品,爱生活测试,热播剧场,IPTV,新笑傲江湖
+recommend: 星影测试,迪迦奥特曼new
+groundtruth: 星影测试
+recommend: 经典电影,家庭影院测试,御前四宝 ,烟花预告片,花少团爆笑学跳桑巴舞
+groundtruth: 古装剧场测试,经典电影,星影测试,热播剧场,IPTV
+recommend: 花少团爆笑学跳桑巴舞,家庭影院测试,动画测试,少儿动画
+groundtruth: 古装剧场测试,斗魂无双之无字真经 ,欧布奥特曼 ,猫和老鼠 ,追击巨怪第一季 ,城市剧场测试,赛尔号 第三季 ,指令宝贝 TV版 ,捷德奥特曼 日配版 ,极速蜗牛第一季 狂奔 ,热播剧场,IPTV,动画测试,魔弹王
+recommend: IPTV
+groundtruth: IPTV
+recommend: 动画狂欢曲
+groundtruth: 经典电影,喜剧影院测试,IPTV谍战剧场,星影测试,动作影院测试,IPTV相声小品,爱生活测试
+recommend: 恰克大冒险 TV版 ,重庆地产重,钢铁侠原声版,忍者之心原声版,真相特别节目
+groundtruth: 终极一班 ,双星之阴阳师
+recommend: IPTV
+groundtruth: IPTV
+recommend: 动画狂欢曲
+groundtruth: 非诚勿扰,IPTV谍战剧场,星影测试
+recommend: 家庭影院测试
+groundtruth: 经典电影,城市剧场测试,IPTV
+recommend: IPTV
+groundtruth: IPTV
+recommend: 报告老板贺岁篇 ,IPTV,奔跑吧,我不是精英 ,爱情公寓 第三季
+groundtruth: HD老男孩new,IPTV,逆缘国语版
+recommend: 新笑傲江湖 ,猪八戒下凡
+groundtruth: 新笑傲江湖 ,IPTV
+recommend: 王牌对王牌上,王牌对王牌Ⅰ,王牌对王牌Ⅲ
+groundtruth: IPTV谍战剧场,纪实高清,动作影院测试,IPTV相声小品,IPTV
+recommend: 星影测试,星际传奇,忍者神龟 破影而出,忍者神龟国语,超能陆战队
+groundtruth: 星影测试,动作影院测试,IPTV
+recommend: IPTV
+groundtruth: IPTV
+recommend: 东方战场第集,长征大会师 ,三国演义 ,我的战争,飞哥大英雄
+groundtruth: 三国演义 ,深海利剑第集
+recommend: IPTV,时尚购物,十万个冷笑话 第二季 ,家庭影院测试,爱情公寓 第三季
+groundtruth: 好学生测试,家庭影院测试,城市剧场测试,IPTV谍战剧场,爱生活测试,IPTV
+recommend: 超级飞侠第三季 ,彩虹小马 小马国女孩彩虹摇滚,熊熊乐园 ,Hi鸭力 ,百变星球历险记
+groundtruth: 动画测试,早教测试
+recommend: IPTV,十万个冷笑话 第二季 ,家庭影院测试,花少团爆笑学跳桑巴舞,古装剧场测试
+groundtruth: 古装剧场测试,家庭影院测试,喜剧影院测试,城市剧场测试,IPTV谍战剧场,星影测试,少儿动画,热播剧场,IPTV,动画测试,封神英雄榜 第集
+recommend: IPTV
+groundtruth: IPTV
+recommend: IPTV,十万个冷笑话 第二季 ,报告老板贺岁篇 ,家庭影院测试,花少团爆笑学跳桑巴舞
+groundtruth: 时尚购物,IPTV谍战剧场,城市剧场测试,IPTV,家有购物
+recommend: 奔跑吧,IPTV,生财有道,IPTV相声小品,渝乐耍大牌首
+groundtruth: 奔跑吧,温暖的弦,跨界歌王Ⅲ,IPTV,天天向上,快乐大本营
+recommend: IPTV
+groundtruth: IPTV
+recommend: 甜心格格 第二部 ,还珠格格第一部
+groundtruth: 古装剧场测试,家庭影院测试,喜剧影院测试,城市剧场测试,星影测试,动作影院测试,热播剧场
+recommend: 少儿动画
+groundtruth: 阿贡中文TV版 ,熊熊乐园 ,机变英盟 第二季 ,少儿动画,表情奇幻冒险,熊出没之冬日乐翻天,超级飞侠第三季
+recommend: 王牌对王牌上,王牌对王牌Ⅰ,王牌对王牌Ⅲ
+groundtruth: IPTV谍战剧场,铁在烧 第集,IPTV,动作影院测试
+recommend: IPTV
+groundtruth: 时尚购物,IPTV,家有购物
+recommend: 凶城计中计国语版,电影最后的假期美国,邻家大贱谍预告片,HD小萝莉的猴神大叔原声版,小萝莉的猴神大叔
+groundtruth: 古装剧场测试,好学生测试,IPTV谍战剧场,纪实高清,IPTV相声小品
+recommend: 动画测试,HD烟花国语版,CMFU学院王子碰碰球第集,小猪佩琪
+groundtruth: 动画测试
+recommend: 动画狂欢曲
+groundtruth: IPTV谍战剧场,城市剧场测试
+recommend: 热播剧场,城市剧场测试
+groundtruth: 城市剧场测试,热播剧场
+recommend: 兰陵王第集,戏曲测试,三生三世十里桃花 ,小楼又东风 ,美好生活
+groundtruth: 奔跑吧,好学生测试,动作影院测试,我是大侦探,中华文明之美
+recommend: 小时代 ,凶城计中计国语版,邻家大贱谍预告片,HD小萝莉的猴神大叔原声版,小萝莉的猴神大叔
+groundtruth: 古装剧场测试,时尚购物,家庭影院测试,戏曲测试,星影测试,IPTV相声小品,热播剧场,无敌铁桥三 ,三生三世十里桃花
+recommend: 少儿动画
+groundtruth: 家庭影院测试,少儿动画,动作影院测试
+recommend: 家庭影院测试,花少团爆笑学跳桑巴舞,动画大放映,电影寻梦环游记美国,动画测试
+groundtruth: 家庭影院测试,纪实高清
+recommend: 热播剧场,城市剧场测试
+groundtruth: 城市剧场测试
+recommend: IPTV,今夕何夕
+groundtruth: IPTV,星影测试
+recommend: 像素大战,特勤精英,大家的大法师之旅P,万万没想到之小兵过年 ,IPTV
+groundtruth: 古装剧场测试,好学生测试,喜剧影院测试,戏曲测试,星影测试,IPTV相声小品,爱生活测试,IPTV
+recommend: 凶城计中计国语版,邻家大贱谍预告片,HD小萝莉的猴神大叔原声版,小萝莉的猴神大叔,小萝莉的猴神大叔原声版
+groundtruth: 古装剧场测试,城市剧场测试,少儿动画,热播剧场,HD你好旧时光第集,HD烟花国语版,HD那刻的怦然心动 第集
+recommend: 万万没想到之小兵过年 ,IPTV,报告老板贺岁篇 ,花少团爆笑学跳桑巴舞,终极一班
+groundtruth: 古装剧场测试,喜剧影院测试,星影测试,动作影院测试,IPTV
+recommend: IPTV,十万个冷笑话 第二季 ,家庭影院测试,花少团爆笑学跳桑巴舞,古装剧场测试
+groundtruth: 古装剧场测试,喜剧影院测试,IPTV谍战剧场,城市剧场测试,星影测试,热播剧场,IPTV,我是大侦探
+recommend: IPTV
+groundtruth: IPTV
+recommend: IPTV
+groundtruth: IPTV
+recommend: 加菲猫的幸福生活 第四季
+groundtruth: 古装剧场测试,星影测试,情感剧场,动画测试,雾都夜话
+recommend: 古装剧场测试
+groundtruth: 古装剧场测试,经典电影,喜剧影院测试,家庭影院测试,戏曲测试,IPTV谍战剧场
+recommend: 超能陆战队,超能陆战队国语版,电影超能陆战队美国,地狱男爵R原声版
+groundtruth: 家庭影院测试,喜剧影院测试,城市剧场测试,星影测试,动作影院测试,IPTV,动画测试
+recommend: 家庭影院测试,今夕何夕
+groundtruth: 少儿动画,IPTV,NBA东部决赛骑士凯尔特人,星影测试
+recommend: 黑侠国语版,蝙蝠侠,HD蝙蝠侠前传：黑暗骑士
+groundtruth: 经典电影,时尚购物,好学生测试,喜剧影院测试,家庭影院测试,戏曲测试,动作影院测试,爱生活测试
+recommend: IPTV
+groundtruth: IPTV
+recommend: IPTV
+groundtruth: IPTV
+recommend: 凶城计中计国语版,邻家大贱谍预告片,HD小萝莉的猴神大叔原声版,小萝莉的猴神大叔,纵横四海
+groundtruth: 奔跑吧,王牌对王牌Ⅰ,初恋未满,中国蓝周播剧场,温暖的弦,王牌对王牌,IPTV,我是大侦探,冷暖人生,高能少年团,快乐大本营
+recommend: 家庭影院测试
+groundtruth: 古装剧场测试,IPTV谍战剧场,热播剧场,IPTV
+recommend: 星影测试,迪迦奥特曼new
+groundtruth: 星影测试,寻秦记
+recommend: IPTV
+groundtruth: IPTV
+recommend: 凶城计中计国语版,邻家大贱谍预告片,HD小萝莉的猴神大叔原声版,小萝莉的猴神大叔,小萝莉的猴神大叔原声版
+groundtruth: 古装剧场测试,经典电影,家庭影院测试,IPTV谍战剧场,星影测试,IPTV相声小品,爱生活测试,热播剧场,动画测试
+recommend: 甜心格格 第二部 ,还珠格格第一部
+groundtruth: 古装剧场测试,逆时营救,小时代 ,爱丽丝梦游仙境,神秘家族,闪光少女,IPTV,龙珠传奇 ,爸爸的次婚礼
+recommend: 暗黑者第集,妙警贼探第四季原声版,动画狂欢曲
+groundtruth: IPTV谍战剧场,IPTV
+recommend: 喜羊羊与灰太狼之发明大作战 ,早教测试,你好像很美味啊剧场版,HD托马斯和他的朋友们S,小猪佩奇
+groundtruth: IPTV谍战剧场,早教测试
+recommend: 喜剧影院测试,花少团爆笑学跳桑巴舞,今夕何夕,皮帕李的私生活
+groundtruth: 喜剧影院测试,IPTV
+recommend: IPTV
+groundtruth: IPTV
+recommend: 终极一班
+groundtruth: 经典电影,好学生测试,家庭影院测试,喜剧影院测试,IPTV谍战剧场,城市剧场测试,包公奇案之情花劫 ,星影测试,动作影院测试,爱生活测试,IPTV
+recommend: 喜剧影院测试,IPTV,渝乐耍大牌重,渝乐耍大牌首,花少团爆笑学跳桑巴舞
+groundtruth: 喜剧影院测试,剿匪英雄 第集大结局,渝乐耍大牌首,中国民歌大会
+recommend: 报告老板贺岁篇 ,名侦探狄仁杰
+groundtruth: IPTV谍战剧场,IPTV
+recommend: 家庭影院测试
+groundtruth: 宝宝巴士启蒙音乐剧之恐龙世界 ,宝宝巴士之奇妙数学大冒险 ,少儿动画,HD赛罗奥特曼英雄传,IPTV,宝宝巴士之神奇简笔画
+recommend: 穆桂英挂帅 ,HD白发魔女传之明月天国,碧血剑版,四大名捕国语版,雾都夜话
+groundtruth: 阿贡中文TV版 ,爱情公寓 第三季 ,大耳朵图图第部TV版 ,穆桂英挂帅 ,海绵宝宝 第八季 ,奇奇探险队 ,大话西游之仙履奇缘,海绵宝宝 第七季 ,新笑傲江湖 ,初心 ,哈喽葡星人 ,熊爸熊孩子预告,托马斯和他的朋友们 第四季
+recommend: IPTV
+groundtruth: IPTV
+recommend: 阿贡中文TV版
+groundtruth: IPTV谍战剧场,动画测试,早教测试
+recommend: IPTV相声小品,IPTV,喜剧总动员Ⅱ,家庭影院测试,喜剧影院测试
+groundtruth: IPTV,我是大侦探,末日侵袭
+recommend: 地狱男爵R原声版
+groundtruth: 经典电影,动画测试,星影测试,动作影院测试
+recommend: IPTV,家有购物,功夫兔与菜包狗TV版 ,家庭影院测试,海绵宝宝 第八季
+groundtruth: IPTV,家有购物
+recommend: 熊出没之探险日记 ,加菲猫的幸福生活 第四季 ,家庭影院测试,花少团爆笑学跳桑巴舞,花少团探访亚马逊雨林
+groundtruth: 真相特别节目,家庭影院测试,喜剧影院测试,星影测试,动作影院测试,动画测试,早教测试
+recommend: 甜心格格 第二部 ,还珠格格第一部
+groundtruth: 古装剧场测试,家庭影院测试,纪实高清,星影测试,爱生活测试,热播剧场,IPTV
+recommend: 大军师司马懿之军师联盟
+groundtruth: 初心,绝命后卫师,枪口,锻刀,张保仔国语版,新玉观音,何以笙箫默
+recommend: 少儿动画
+groundtruth: 少儿动画,IPTV
+recommend: 我该怎么办 ,报告老板贺岁篇 ,家庭影院测试
+groundtruth: 古装剧场测试,三个孬家伙,好学生测试,纪实高清,爱生活测试,热播剧场,IPTV,早教测试
+recommend: 报告老板贺岁篇 ,小品外卖奇遇记,名侦探狄仁杰
+groundtruth: 古装剧场测试,IPTV
+recommend: 加菲猫的幸福生活 第四季 ,少儿动画,阿贡中文TV版 ,旋风管家 ,动画狂欢曲
+groundtruth: 古装剧场测试,奔跑吧,IPTV谍战剧场,星影测试,少儿动画,热播剧场,IPTV,动画测试
+recommend: IPTV
+groundtruth: IPTV
+recommend: 老男孩猛龙过江,海绵宝宝 第八季 ,动画大放映,猫和老鼠 ,猫和老鼠第一部
+groundtruth: 电影芭比之魅力公主学院美国,家庭影院测试,星影测试,温暖的弦,IPTV相声小品,动作影院测试,少儿动画,我是大侦探,电影寻龙诀
+recommend: 枪娘第集,福五鼠之战国风云 ,超能陆战队,博人传 火影忍者新时代 ,黑猫警长之翡翠之星
+groundtruth: 果果骑侠传 ,森林小卫士罗布 ,喜剧影院测试,家庭影院测试,翼飞冲天之天际战骑 ,星影测试,动作影院测试,机变英盟 第二季 ,爱生活测试,变形金刚之救援汽车人 第二季 ,IPTV
+recommend: IPTV
+groundtruth: IPTV
+recommend: IPTV
+groundtruth: IPTV
+recommend: 变身国王上学记,电影魔法灰姑娘美国爱尔兰英国
+groundtruth: 时尚购物,开心超人联盟之神奇实验室,西游记,百变马丁,动画大放映,家有购物,熊出没之春日对对碰
+recommend: 喜剧影院测试,HD电视剧异镇,电视剧异镇,电视剧异镇new,花少团爆笑学跳桑巴舞
+groundtruth: 喜剧影院测试,爱生活测试,戏曲测试,IPTV相声小品
+recommend: 报告老板贺岁篇 ,名侦探狄仁杰
+groundtruth: 神秘的旅客,IPTV,心的重生
+recommend: 报告老板贺岁篇 ,名侦探狄仁杰
+groundtruth: 城市剧场测试,IPTV谍战剧场,星影测试,IPTV相声小品,IPTV
+recommend: 报告老板贺岁篇 ,古装剧场测试,花少团爆笑学跳桑巴舞,家庭影院测试,终极一班
+groundtruth: 古装剧场测试,喜剧影院测试,家庭影院测试,星影测试,IPTV,动画测试,早教测试
+recommend: 煎饼侠,会说话的家族 ,兽王争锋之原石之力 ,TICO动漫星球,开心宝贝
+groundtruth: 古装剧场测试,TICO欢乐假日周末,喜剧影院测试,TICO成长快车,星影测试,动作影院测试,TICO欢乐假日,热播剧场,动画大放映,封神英雄榜 第集,早教测试
+recommend: IPTV
+groundtruth: IPTV
+recommend: IPTV
+groundtruth: IPTV
+recommend: 星影测试,黑猫警长之翡翠之星,终极一班 ,蝙蝠侠,名侦探柯南
+groundtruth: 古装剧场测试,喜剧影院测试,家庭影院测试,纪实高清,星影测试,动作影院测试,爱生活测试,少儿动画
+recommend: 甜心格格 第二部 ,还珠格格第一部
+groundtruth: 古装剧场测试,三生三世十里桃花
+recommend: 恰克大冒险 TV版 ,双星之阴阳师 ,钢铁侠原声版,重庆地产重,忍者之心原声版
+groundtruth: 古装剧场测试,经典电影,喜剧影院测试,戏曲测试,IPTV谍战剧场,城市剧场测试,星影测试,热播剧场,IPTV
+recommend: IPTV,报告老板贺岁篇 ,十万个冷笑话 第二季 ,家庭影院测试,花少团爆笑学跳桑巴舞
+groundtruth: 经典电影,好学生测试,城市剧场测试,IPTV谍战剧场,戏曲测试,星影测试,动作影院测试,热播剧场,IPTV
+recommend: 阿贡中文TV版
+groundtruth: 少儿动画,IPTV谍战剧场
+recommend: IPTV
+groundtruth: IPTV
+recommend: 星影测试,迪迦奥特曼new
+groundtruth: 星影测试
+recommend: 乐高未来骑士,小胖妞TV版 ,HD西游记之大圣归来国语版,西游记之大圣归来国语版
+groundtruth: 热播剧场,IPTV
+recommend: IPTV,古装剧场测试,报告老板贺岁篇 ,家庭影院测试,花少团爆笑学跳桑巴舞
+groundtruth: 古装剧场测试,IPTV
+recommend: 加菲猫的幸福生活 第四季 ,银之守墓人第集,海洋之歌
+groundtruth: 万万没想到,HD烟花国语版
+recommend: 战国
+groundtruth: 我的爱情撞上了战争,IPTV谍战剧场,敢死队Ⅱ,左手劈刀,一剧场铁血荣耀—
+recommend: 古装剧场测试
+groundtruth: 古装剧场测试
+recommend: 暗黑者第集,IPTV,报告老板贺岁篇 ,首大律师在线,纵横四海
+groundtruth: 神秘家族,窃听风云,IPTV
+recommend: IPTV
+groundtruth: IPTV
+recommend: IPTV
+groundtruth: IPTV
+recommend: 动画狂欢曲
+groundtruth: 古装剧场测试,经典电影,IPTV谍战剧场,热播剧场,IPTV
+recommend: 动画测试,大冒险家 DVD版 ,潜行狙击 ,壮志凌云,上海王
+groundtruth: 好学生测试,戏曲测试,IPTV谍战剧场,城市剧场测试,热播剧场
+recommend: 恰克大冒险 TV版 ,双星之阴阳师 ,HD生死回放,钢铁侠原声版,HD时空使徒
+groundtruth: 城市剧场测试,戏曲测试
+recommend: 奔跑吧,刀光枪影,小D假日剧场,消防员山姆第二季TV版 ,全职高手周周见第集
+groundtruth: 戏曲测试,IPTV谍战剧场,星影测试,爱生活测试,动画测试,早教测试
+recommend: 银河剧场,终极一班 ,中国音乐电视,谍影重重,消费主张
+groundtruth: 奔跑吧,我是特种兵之火凤凰,女人有话说,亲家来了,星影测试,动作影院测试,新相亲时代,我是大侦探,小猪佩奇
+recommend: 乐高未来骑士,黑猫警长之翡翠之星,HD西游记之大圣归来国语版,西游记之大圣归来国语版,IPTV
+groundtruth: 经典电影,喜剧影院测试,城市剧场测试,动作影院测试,IPTV相声小品,IPTV
+recommend: IPTV,电影一路惊喜,家庭影院测试,电影魔法灰姑娘美国爱尔兰英国,一线
+groundtruth: 时尚购物,IPTV,家有购物,星影测试
+recommend: 寻找小天使 中文版
+groundtruth: 宝宝巴士启蒙音乐剧之动物世界 ,宝宝巴士之奇妙数学大冒险 ,小猪佩琪 ,星影测试,寻找小天使 中文版
+recommend: 星影测试,迪迦奥特曼new
+groundtruth: 星影测试
+recommend: 舌尖上的中国Ⅱ,奔跑吧,戏曲测试,生财有道,IPTV
+groundtruth: 经典电影,IPTV谍战剧场,IPTV
+recommend: IPTV
+groundtruth: 经典电影,IPTV
+recommend: 动画狂欢曲
+groundtruth: IPTV谍战剧场,城市剧场测试,星影测试,IPTV相声小品,金牌投资人,情满四合院,爱生活测试,IPTV
+recommend: 经典剧场,海洋之歌,宫崎骏萤火虫之墓,穿越时空的少女
+groundtruth: 喜剧影院测试,动画测试,星影测试
+recommend: 超变战陀,决战洛城原声版,星影测试,黑猫警长之翡翠之星,电影天才眼镜狗美国
+groundtruth: 喜剧影院测试,CMFU学院王子碰碰球第集,星影测试,动作影院测试,TICO动漫星球,超变武兽
+recommend: IPTV
+groundtruth: IPTV
+recommend: IPTV,终极一班 ,超能陆战队
+groundtruth: 星影测试,动作影院测试,IPTV
+recommend: 捷德奥特曼 日配版 ,乐高超级英雄正义联盟对比扎罗联盟,HD捷德奥特曼,黑猫警长之翡翠之星,星影测试
+groundtruth: 时尚购物,欧布奥特曼原生之初 ,喜剧影院测试,IPTV谍战剧场,金牌笑话团 第四季 ,Q版三国 ,星影测试,铠甲勇士 第一部 ,捷德奥特曼 日配版 ,热播剧场,IPTV,变形金刚之救援汽车人 第二季 ,欧布奥特曼 ,早教测试
+recommend: 报告老板贺岁篇 ,名侦探狄仁杰
+groundtruth: IPTV谍战剧场,时尚购物,IPTV
+recommend: 甜心格格 第二部 ,还珠格格第一部
+groundtruth: 古装剧场测试,仙剑云之凡 第集,微微一笑很倾城 ,城市剧场测试,奔跑吧兄弟第四季 ,三生三世十里桃花 第集
+recommend: 我该怎么办 ,报告老板贺岁篇 ,家庭影院测试,今夕何夕
+groundtruth: 家庭影院测试,星影测试,动作影院测试,IPTV,小奸小恶
+recommend: 十万个冷笑话 第二季 ,家庭影院测试,花少团爆笑学跳桑巴舞,喜剧影院测试,冰河世纪
+groundtruth: 热播剧场,IPTV
+recommend: IPTV谍战剧场
+groundtruth: IPTV谍战剧场,高能少年团
+recommend: 卡酷卡通,IPTV,古装剧场,万万没想到,还珠格格第一部
+groundtruth: 古装剧场测试,奔跑吧,仙剑云之凡 第集,好学生测试,家庭影院测试,喜剧影院测试,城市剧场测试,童趣大冒险,星影测试,动作影院测试,IPTV相声小品,少年四大名捕 第集,IPTV,电影捉鬼敢死队美国
+recommend: 甜心格格 第二部 ,还珠格格第一部
+groundtruth: 将军在上 ,新笑傲江湖
+recommend: 我该怎么办 ,IPTV,报告老板贺岁篇
+groundtruth: 时尚购物,IPTV,家有购物,戏曲测试
+recommend: 超级飞侠 ,HD新葫芦兄弟第一季,萌鸡小队,萌鸡小队 ,花园宝宝第三季
+groundtruth: 神偷奶爸,新大头儿子和小头爸爸之秘密计划
+recommend: 终极一班
+groundtruth: 家庭影院测试,IPTV谍战剧场,纪实高清,星影测试,动作影院测试,IPTV,动画测试
+recommend: IPTV,报告老板贺岁篇 , 生活麻辣烫 一个人的火锅下,奔跑吧,花少团爆笑学跳桑巴舞
+groundtruth: IPTV谍战剧场,IPTV
+recommend: 标清 电影大汉风之破釜沉舟重播,爱车聊天室,佩小姐的奇幻城堡预告片,哈利波特与阿兹卡班的囚徒,巨人捕手杰克
+groundtruth: 千方百计爱上你第集,致青春原来你还在这里,风筝第集,猫和老鼠：绿野仙踪,热播剧场,攻心 ,三生三世十里桃花 ,奔跑吧,精灵梦叶罗丽 第五季 ,米雅的精灵王国 ,欢乐集结号,IPTV,恋恋不忘 ,女娲传说之灵珠 ,王牌对王牌Ⅲ,快乐大本营,真相特别节目,狐影第集,千金女贼 ,小楼又东风 ,三生三世十里桃花,棉花糖和云朵妈妈
+recommend: 加菲猫的幸福生活 第四季 ,少儿动画,旋风管家
+groundtruth: 动画梦工场,少儿动画,动画测试
+recommend: 凶城计中计国语版,邻家大贱谍预告片,HD小萝莉的猴神大叔原声版,小萝莉的猴神大叔,小萝莉的猴神大叔原声版
+groundtruth: 古装剧场测试,中国诗词大会Ⅲ,动物世界,家庭影院测试,IPTV谍战剧场,城市剧场测试,动作影院测试,爱生活测试,热播剧场,冷暖人生,传奇,IPTV,档案,动物世界  花豹柔情,雾都夜话
+recommend: IPTV谍战剧场
+groundtruth: IPTV谍战剧场
+recommend: IPTV
+groundtruth: IPTV
+recommend: IPTV,家庭影院测试,像素大战,花少团爆笑学跳桑巴舞,终极一班
+groundtruth: 星影测试,IPTV
+recommend: IPTV
+groundtruth: IPTV
+recommend: IPTV
+groundtruth: IPTV
+recommend: 甜心格格 第二部 ,还珠格格第一部
+groundtruth: 古装剧场测试,公主传奇上disney小公主苏菲亚,长江七号,电视剧场猎王刀—,米雅的精灵王国 ,一剧场铁血荣耀—,汪汪队立大功
+recommend: 钢铁侠原声版,重庆地产重,铁臂阿童木 ,忍者之心原声版
+groundtruth: 古装剧场测试,经典电影,家庭影院测试,喜剧影院测试,城市剧场测试,星影测试,少儿动画,爱生活测试,冷暖人生
+recommend: 变形金刚 第一季
+groundtruth: 家庭影院测试,喜剧影院测试,热播剧场,动作影院测试
+recommend: 加菲猫的幸福生活 第四季
+groundtruth: 彩虹小马 小马国女孩彩虹摇滚,彩虹小马 小马国女孩友谊运动会,我是哪吒,赛罗奥特曼外传 超决战,IPTV谍战剧场,星影测试,捷德奥特曼 日配版 ,米雅的精灵王国 ,少儿动画,小王子 D版 ,万万没想到,IPTV,少年锦衣卫 第一季 ,动画测试,少年锦衣卫第二季第集
+recommend: 小小智慧树,TICO成长快车,小D假日剧场,爱回家之开心速递第十五部国语版,璀璨人生
+groundtruth: 奔跑吧,医馆笑传 ,熊爸熊孩子 ,功夫鸡,HD银河奥特曼S,我是大侦探,HD龙珠超III,快乐大本营,刀光枪影第集
+recommend: 家庭影院测试
+groundtruth: 时尚购物,纪实高清,热播剧场,IPTV,家有购物
+recommend: 赵氏孤儿案 ,暗黑者第集,妙警贼探第四季原声版,谜情家族国语版
+groundtruth: IPTV谍战剧场,纪实高清,家有购物
+recommend: 终极一班
+groundtruth: 经典电影,喜剧影院测试,家庭影院测试,星影测试,动作影院测试,爱生活测试,IPTV
+recommend: 甜心格格 第二部 ,还珠格格第一部
+groundtruth: 古装剧场测试,经典电影,城市剧场测试,热播剧场
+recommend: 一线,创业男爱情洁癖激怒黄磊
+groundtruth: 三个女人一个因国语版,HD那刻的怦然心动 第集,爱回家之开心速递第十五部国语版
+recommend: 宫崎骏萤火虫之墓,HD超人动画版第二部,大明谜案 蓝玉谋反案,超神学院之黑甲第集
+groundtruth: 战火中的兄弟 ,IPTV,动画测试
+recommend: 将军在上 ,时尚购物,等风来,仙剑奇侠传三 ,仙剑奇侠传 第一部
+groundtruth: 思美人第集,奔跑吧,择天记 ,精灵梦叶罗丽 第五季 ,微微一笑很倾城 ,寻秦记 ,米雅的精灵王国 ,IPTV,三生三世十里桃花 ,青春最好时第集
+recommend: 超神游戏 ,会说话的家族 ,美食大冒险 第二季 ,神奇阿哟 ,熊出没之冬日乐翻天
+groundtruth: 魔角侦探第二季TV版 ,超级飞侠 ,米雅的精灵王国
+recommend: 暗黑者第集,妙警贼探第四季原声版
+groundtruth: 经典电影,奔跑吧,IPTV谍战剧场,家事有道,IPTV,金牌调解
+recommend: 地狱男爵R原声版
+groundtruth: 奔跑吧先导片,爱生活测试,动画测试,星影测试
+recommend: 少儿动画
+groundtruth: 少儿动画,动画测试
+recommend: 烟花预告片,代号预告片
+groundtruth: 奔跑吧,麦咭首播剧场,童趣大冒险,熊出没之奇幻空间,哆啦A梦第八部,中国蓝剧场,IPTV,新名侦探柯南VI,少年锦衣卫第二季第集,HD爱你一万年
+recommend: IPTV
+groundtruth: IPTV
+recommend: IPTV
+groundtruth: IPTV
+recommend: 城市剧场测试,乐高未来骑士,HD西游记之大圣归来国语版,西游记之大圣归来国语版,黑猫警长之翡翠之星
+groundtruth: 大话西游之月光宝盒,家庭影院测试,城市剧场测试,星影测试,动作影院测试,热播剧场,IPTV,早教测试
+recommend: 报告老板贺岁篇 ,名侦探狄仁杰
+groundtruth: IPTV谍战剧场,IPTV
+recommend: IPTV
+groundtruth: IPTV
+recommend: 古装剧场测试
+groundtruth: 古装剧场测试
+recommend: 奔跑吧,凶城计中计国语版,邻家大贱谍预告片,HD小萝莉的猴神大叔原声版,小萝莉的猴神大叔
+groundtruth: 喜剧影院测试,IPTV谍战剧场,动作影院测试,IPTV,HD那刻的怦然心动 第集
+recommend: 超级飞侠第三季 ,彩虹小马 小马国女孩彩虹摇滚,熊熊乐园 ,Hi鸭力 ,百变星球历险记
+groundtruth: 动画测试,早教测试
+recommend: IPTV
+groundtruth: IPTV,IPTV相声小品
+recommend: 甜心格格 第二部 ,还珠格格第一部
+groundtruth: 古装剧场测试,热播剧场
+recommend: IPTV
+groundtruth: IPTV
+recommend: 彩虹小马 小马国女孩彩虹摇滚,熊熊乐园 ,Hi鸭力 ,百变星球历险记 ,超级飞侠第三季
+groundtruth: 宝宝巴士之熊猫奇奇 ,枪神斯托拉塔斯 ,奔跑吧,平博士密码 ,宝宝巴士之奇妙好习惯 ,宝宝巴士之奇妙数学大冒险 ,星影测试,跳跳鱼世界第二季 ,温暖的弦,芭比之梦想豪宅 第七季 TV版 ,电击小子 第一季 ,因为爱情有晴天,新笑傲江湖 ,我是大侦探,摇滚萝莉 第季 ,天天向上,棉花糖和云朵妈妈 ,快乐大本营,熊出没之春日对对碰
+recommend: HD一个人的武林国语版,活人墓,电影脑残粉印度,谍海风云原声版,城市猎人
+groundtruth: 新婚公寓 ,猪迪克之古怪岛大冒险 ,微微一笑很倾城 ,爱情上上签第集,一路惊喜,爱情公寓 第三季 ,蜀山战纪剑侠传奇第集,熊爸熊孩子 ,米雅的精灵王国 ,铠甲勇士 第一部 ,泰拉星环 ,海底小纵队 ,解密 ,急诊科医生 ,棉花糖和云朵妈妈 ,青春最好时第集
+Traceback (most recent call last):
+recommend: HD东风破,蝙蝠侠,HD神枪手,终极一班 ,指环王护戒使者
+  File "E:/bigdata/pycharmProject/iptv_git/UCF.py", line 163, in <module>
+    main()
+  File "E:/bigdata/pycharmProject/iptv_git/UCF.py", line 139, in main
+    print('groundtruth:', ','.join(real))
+TypeError: sequence item 0: expected str instance, float found
+
+Process finished with exit code 1
