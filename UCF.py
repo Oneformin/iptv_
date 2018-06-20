@@ -116,7 +116,7 @@ def main():
     for x in user_program['chanel_name']:
         all_program |= set(x)
     ucf = UCF(clusters, train, 20, len(item_set), user_program, text_info, 5)
-    us = list(train.keys())
+    us = list(train.keys())[0:1000]
     df = {'N':[],
     'K':[],
     'precision':[],
